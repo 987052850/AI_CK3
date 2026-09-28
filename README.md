@@ -33,20 +33,23 @@
 ## 目录结构 / Directory Structure
 
 ```
-AI_CK3/
-├── descriptor.mod
-├── AI_CK3.mod
+AI_CK3/                              ← repository root
+├── descriptor.mod                   ← copy to CK3 mod folder
+├── AI_CK3.mod                       ← copy to CK3 mod folder
 ├── README.md
 └── mod/
-    └── AI_CK3/
+    └── AI_CK3/                      ← copy entire folder to CK3 mod folder
         ├── common/
         │   ├── scripted_triggers/   # AI 触发条件
         │   ├── scripted_effects/    # AI 效果脚本
         │   ├── decisions/           # AI 决策
+        │   ├── modifiers/           # 角色修正
+        │   ├── opinion_modifiers/   # 外交意见修正
         │   └── on_actions/          # 事件钩子
         ├── events/                  # 事件文件
         ├── localization/            # 本地化文本
-        │   └── english/
+        │   ├── english/
+        │   └── simp_chinese/
         └── gfx/                     # 图形资源
             └── interface/
 ```

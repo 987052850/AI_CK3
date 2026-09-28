@@ -47,7 +47,6 @@ ai_ck3.001 = {
 			add_opinion = {
 				target = root
 				modifier = ai_ck3_diplomatic_gesture
-				opinion = 15
 			}
 		}
 		ai_chance = {

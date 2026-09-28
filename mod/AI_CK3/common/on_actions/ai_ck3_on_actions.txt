@@ -24,7 +24,7 @@ on_yearly_pulse = {
 	}
 }
 
-on_new_character_created = {
+on_title_gain = {
 	effect = {
 		if = {
 			limit = {

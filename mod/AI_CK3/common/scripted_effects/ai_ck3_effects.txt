@@ -28,7 +28,6 @@ ai_ck3_diplomatic_outreach_effect = {
 		add_opinion = {
 			target = root
 			modifier = ai_ck3_diplomatic_gesture
-			opinion = 15
 		}
 	}
 }
@@ -50,7 +49,6 @@ ai_ck3_stabilize_realm_effect = {
 			add_opinion = {
 				target = root
 				modifier = ai_ck3_goodwill_gift
-				opinion = 10
 			}
 		}
 	}

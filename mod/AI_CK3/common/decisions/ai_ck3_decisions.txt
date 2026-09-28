@@ -9,7 +9,8 @@ ai_ck3_decisions = {
 		selection_tooltip = ai_ck3_reinforce_decision_tooltip
 
 		is_shown = {
-			ai_ck3_should_expand_militarily = yes
+			NOT = { is_at_war = yes }
+			gold >= 100
 		}
 
 		is_valid = {
@@ -40,7 +41,10 @@ ai_ck3_decisions = {
 		selection_tooltip = ai_ck3_stabilize_decision_tooltip
 
 		is_shown = {
-			ai_ck3_is_vulnerable = yes
+			gold >= 50
+			any_vassal = {
+				opinion = { target = root value < 0 }
+			}
 		}
 
 		is_valid = {

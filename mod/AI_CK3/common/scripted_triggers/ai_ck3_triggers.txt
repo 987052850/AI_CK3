@@ -32,9 +32,12 @@ ai_ck3_is_vulnerable = {
 		health < 3
 		gold < 50
 		NOT = {
-			any_vassal = {
-				count >= 3
-				opinion = { target = root value >= 0 }
+			calc_true_if = {
+				desc = ai_ck3_vassal_support_check
+				amount >= 3
+				all_vassal = {
+					opinion = { target = root value >= 0 }
+				}
 			}
 		}
 	}
