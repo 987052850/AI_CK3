@@ -1,0 +1,3 @@
+﻿NJominiLobby = {
+	MAX_SELECTION_CLICK_SOUNDS = 7
+}

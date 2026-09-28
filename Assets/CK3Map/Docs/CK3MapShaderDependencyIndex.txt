@@ -1,0 +1,215 @@
+CK3 MAP SHADER DEPENDENCY INDEX
+Generated from original game, Jomini, and Clausewitz trees.
+
+[ENTRY POINTS]
+game/gfx/FX/pdxterrain.shader
+game/gfx/FX/pdxwater.shader
+game/gfx/FX/pdxborder.shader
+game/gfx/FX/river_surface.shader
+game/gfx/FX/river_bottom.shader
+game/gfx/FX/mapname.shader
+jomini/gfx/FX/jomini/jomini_unsigned_distancefield.shader
+
+[RESOLVED FILES]
+clausewitz/gfx/FX/cw/heightmap.fxh
+clausewitz/gfx/FX/cw/lighting_constants.fxh
+clausewitz/gfx/FX/cw/pdxmesh.fxh
+clausewitz/gfx/FX/cw/pdxmesh_buffers.fxh
+clausewitz/gfx/FX/cw/pdxterrain.fxh
+clausewitz/gfx/FX/cw/random.fxh
+clausewitz/gfx/FX/cw/shadow.fxh
+clausewitz/gfx/FX/cw/upscale_utils.fxh
+clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/bordercolor.fxh
+game/gfx/FX/clouds.fxh
+game/gfx/FX/constants.fxh
+game/gfx/FX/cw/camera.fxh
+game/gfx/FX/cw/lighting.fxh
+game/gfx/FX/cw/lighting_util.fxh
+game/gfx/FX/disease.fxh
+game/gfx/FX/dynamic_masks.fxh
+game/gfx/FX/jomini/jomini_colormap.fxh
+game/gfx/FX/jomini/jomini_fog.fxh
+game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/jomini/jomini_lighting.fxh
+game/gfx/FX/jomini/jomini_province_overlays.fxh
+game/gfx/FX/jomini/jomini_river_surface.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh
+game/gfx/FX/jomini/map_lighting.fxh
+game/gfx/FX/legend.fxh
+game/gfx/FX/lowspec.fxh
+game/gfx/FX/mapname.shader
+game/gfx/FX/paper_transition.fxh
+game/gfx/FX/pdxborder.shader
+game/gfx/FX/pdxterrain.shader
+game/gfx/FX/pdxwater.shader
+game/gfx/FX/province_effects.fxh
+game/gfx/FX/province_effects_variables.fxh
+game/gfx/FX/river_bottom.shader
+game/gfx/FX/river_surface.shader
+game/gfx/FX/shadow_tint.fxh
+game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/utility_game.fxh
+jomini/gfx/FX/jomini/countrynames.fxh
+jomini/gfx/FX/jomini/gradient_border_constants.fxh
+jomini/gfx/FX/jomini/jomini.fxh
+jomini/gfx/FX/jomini/jomini_colormap_constants.fxh
+jomini/gfx/FX/jomini/jomini_flat_border.fxh
+jomini/gfx/FX/jomini/jomini_mapobject.fxh
+jomini/gfx/FX/jomini/jomini_river.fxh
+jomini/gfx/FX/jomini/jomini_river_bottom.fxh
+jomini/gfx/FX/jomini/jomini_unsigned_distancefield.shader
+jomini/gfx/FX/jomini/jomini_water.fxh
+jomini/gfx/FX/jomini/jomini_water_pdxmesh.fxh
+
+[INCLUDE EDGES]
+clausewitz/gfx/FX/cw/pdxmesh.fxh -> clausewitz/gfx/FX/cw/pdxmesh_buffers.fxh
+clausewitz/gfx/FX/cw/pdxmesh.fxh -> clausewitz/gfx/FX/cw/random.fxh
+clausewitz/gfx/FX/cw/pdxmesh.fxh -> game/gfx/FX/cw/camera.fxh
+clausewitz/gfx/FX/cw/pdxterrain.fxh -> clausewitz/gfx/FX/cw/heightmap.fxh
+clausewitz/gfx/FX/cw/pdxterrain.fxh -> clausewitz/gfx/FX/cw/upscale_utils.fxh
+clausewitz/gfx/FX/cw/pdxterrain.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+clausewitz/gfx/FX/cw/shadow.fxh -> clausewitz/gfx/FX/cw/random.fxh
+clausewitz/gfx/FX/cw/upscale_utils.fxh -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/bordercolor.fxh -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+game/gfx/FX/bordercolor.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/bordercolor.fxh -> game/gfx/FX/jomini/jomini_colormap.fxh
+game/gfx/FX/bordercolor.fxh -> game/gfx/FX/jomini/jomini_province_overlays.fxh
+game/gfx/FX/bordercolor.fxh -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/bordercolor.fxh -> jomini/gfx/FX/jomini/jomini_colormap_constants.fxh
+game/gfx/FX/clouds.fxh -> clausewitz/gfx/FX/cw/random.fxh
+game/gfx/FX/clouds.fxh -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/clouds.fxh -> game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/clouds.fxh -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/clouds.fxh -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/cw/lighting.fxh -> clausewitz/gfx/FX/cw/lighting_constants.fxh
+game/gfx/FX/cw/lighting_util.fxh -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/cw/lighting_util.fxh -> game/gfx/FX/cw/lighting.fxh
+game/gfx/FX/disease.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/disease.fxh -> game/gfx/FX/jomini/jomini_province_overlays.fxh
+game/gfx/FX/disease.fxh -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/disease.fxh -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/dynamic_masks.fxh -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+game/gfx/FX/dynamic_masks.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/dynamic_masks.fxh -> game/gfx/FX/province_effects.fxh
+game/gfx/FX/dynamic_masks.fxh -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/dynamic_masks.fxh -> game/gfx/FX/utility_game.fxh
+game/gfx/FX/jomini/jomini_fog.fxh -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+game/gfx/FX/jomini/jomini_fog.fxh -> clausewitz/gfx/FX/cw/random.fxh
+game/gfx/FX/jomini/jomini_fog.fxh -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/jomini/jomini_fog.fxh -> game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/jomini/jomini_fog.fxh -> jomini/gfx/FX/jomini/jomini.fxh
+game/gfx/FX/jomini/jomini_fog_of_war.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/jomini/jomini_lighting.fxh -> clausewitz/gfx/FX/cw/shadow.fxh
+game/gfx/FX/jomini/jomini_lighting.fxh -> game/gfx/FX/constants.fxh
+game/gfx/FX/jomini/jomini_lighting.fxh -> game/gfx/FX/cw/lighting_util.fxh
+game/gfx/FX/jomini/jomini_lighting.fxh -> jomini/gfx/FX/jomini/jomini.fxh
+game/gfx/FX/jomini/jomini_province_overlays.fxh -> game/gfx/FX/jomini/jomini_colormap.fxh
+game/gfx/FX/jomini/jomini_province_overlays.fxh -> jomini/gfx/FX/jomini/gradient_border_constants.fxh
+game/gfx/FX/jomini/jomini_province_overlays.fxh -> jomini/gfx/FX/jomini/jomini_colormap_constants.fxh
+game/gfx/FX/jomini/jomini_river_surface.fxh -> game/gfx/FX/jomini/jomini_water_default.fxh
+game/gfx/FX/jomini/jomini_river_surface.fxh -> jomini/gfx/FX/jomini/jomini_river.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> clausewitz/gfx/FX/cw/heightmap.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> game/gfx/FX/clouds.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> game/gfx/FX/jomini/jomini_fog.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> game/gfx/FX/jomini/jomini_lighting.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> game/gfx/FX/jomini/map_lighting.fxh
+game/gfx/FX/jomini/jomini_water_default.fxh -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/jomini/map_lighting.fxh -> clausewitz/gfx/FX/cw/shadow.fxh
+game/gfx/FX/jomini/map_lighting.fxh -> game/gfx/FX/constants.fxh
+game/gfx/FX/jomini/map_lighting.fxh -> game/gfx/FX/cw/lighting_util.fxh
+game/gfx/FX/jomini/map_lighting.fxh -> game/gfx/FX/shadow_tint.fxh
+game/gfx/FX/jomini/map_lighting.fxh -> jomini/gfx/FX/jomini/jomini.fxh
+game/gfx/FX/legend.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/legend.fxh -> game/gfx/FX/jomini/jomini_province_overlays.fxh
+game/gfx/FX/legend.fxh -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/legend.fxh -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/lowspec.fxh -> game/gfx/FX/jomini/jomini_lighting.fxh
+game/gfx/FX/lowspec.fxh -> game/gfx/FX/jomini/map_lighting.fxh
+game/gfx/FX/lowspec.fxh -> game/gfx/FX/shadow_tint.fxh
+game/gfx/FX/mapname.shader -> game/gfx/FX/clouds.fxh
+game/gfx/FX/mapname.shader -> game/gfx/FX/cw/lighting.fxh
+game/gfx/FX/mapname.shader -> game/gfx/FX/jomini/jomini_fog.fxh
+game/gfx/FX/mapname.shader -> game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/mapname.shader -> game/gfx/FX/jomini/jomini_lighting.fxh
+game/gfx/FX/mapname.shader -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/mapname.shader -> jomini/gfx/FX/jomini/countrynames.fxh
+game/gfx/FX/mapname.shader -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/pdxborder.shader -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/clouds.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/cw/lighting.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/jomini/jomini_fog.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/jomini/jomini_lighting.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/jomini/map_lighting.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/shadow_tint.fxh
+game/gfx/FX/pdxborder.shader -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/pdxborder.shader -> jomini/gfx/FX/jomini/jomini_flat_border.fxh
+game/gfx/FX/pdxterrain.shader -> clausewitz/gfx/FX/cw/heightmap.fxh
+game/gfx/FX/pdxterrain.shader -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+game/gfx/FX/pdxterrain.shader -> clausewitz/gfx/FX/cw/shadow.fxh
+game/gfx/FX/pdxterrain.shader -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/bordercolor.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/clouds.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/cw/lighting.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/cw/lighting_util.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/disease.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/dynamic_masks.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/jomini/jomini_fog.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/jomini/map_lighting.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/legend.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/lowspec.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/paper_transition.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/province_effects.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/shadow_tint.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/pdxterrain.shader -> game/gfx/FX/utility_game.fxh
+game/gfx/FX/pdxterrain.shader -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/pdxwater.shader -> clausewitz/gfx/FX/cw/heightmap.fxh
+game/gfx/FX/pdxwater.shader -> game/gfx/FX/bordercolor.fxh
+game/gfx/FX/pdxwater.shader -> game/gfx/FX/clouds.fxh
+game/gfx/FX/pdxwater.shader -> game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/pdxwater.shader -> game/gfx/FX/jomini/jomini_water_default.fxh
+game/gfx/FX/pdxwater.shader -> game/gfx/FX/paper_transition.fxh
+game/gfx/FX/pdxwater.shader -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/pdxwater.shader -> game/gfx/FX/utility_game.fxh
+game/gfx/FX/pdxwater.shader -> jomini/gfx/FX/jomini/jomini_mapobject.fxh
+game/gfx/FX/pdxwater.shader -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/pdxwater.shader -> jomini/gfx/FX/jomini/jomini_water_pdxmesh.fxh
+game/gfx/FX/province_effects.fxh -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+game/gfx/FX/province_effects.fxh -> game/gfx/FX/jomini/jomini_province_overlays.fxh
+game/gfx/FX/province_effects.fxh -> game/gfx/FX/province_effects_variables.fxh
+game/gfx/FX/river_bottom.shader -> clausewitz/gfx/FX/cw/shadow.fxh
+game/gfx/FX/river_bottom.shader -> clausewitz/gfx/FX/cw/utility.fxh
+game/gfx/FX/river_bottom.shader -> game/gfx/FX/constants.fxh
+game/gfx/FX/river_bottom.shader -> game/gfx/FX/cw/camera.fxh
+game/gfx/FX/river_bottom.shader -> game/gfx/FX/jomini/jomini_lighting.fxh
+game/gfx/FX/river_bottom.shader -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/river_bottom.shader -> jomini/gfx/FX/jomini/jomini_river_bottom.fxh
+game/gfx/FX/river_bottom.shader -> jomini/gfx/FX/jomini/jomini_water.fxh
+game/gfx/FX/river_surface.shader -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+game/gfx/FX/river_surface.shader -> game/gfx/FX/clouds.fxh
+game/gfx/FX/river_surface.shader -> game/gfx/FX/jomini/jomini_fog_of_war.fxh
+game/gfx/FX/river_surface.shader -> game/gfx/FX/jomini/jomini_river_surface.fxh
+game/gfx/FX/river_surface.shader -> game/gfx/FX/shadow_tint.fxh
+game/gfx/FX/river_surface.shader -> game/gfx/FX/standardfuncsgfx.fxh
+game/gfx/FX/shadow_tint.fxh -> clausewitz/gfx/FX/cw/heightmap.fxh
+game/gfx/FX/shadow_tint.fxh -> game/gfx/FX/standardfuncsgfx.fxh
+jomini/gfx/FX/jomini/countrynames.fxh -> clausewitz/gfx/FX/cw/upscale_utils.fxh
+jomini/gfx/FX/jomini/countrynames.fxh -> game/gfx/FX/cw/camera.fxh
+jomini/gfx/FX/jomini/jomini_river.fxh -> game/gfx/FX/cw/camera.fxh
+jomini/gfx/FX/jomini/jomini_river_bottom.fxh -> clausewitz/gfx/FX/cw/pdxterrain.fxh
+jomini/gfx/FX/jomini/jomini_river_bottom.fxh -> clausewitz/gfx/FX/cw/upscale_utils.fxh
+jomini/gfx/FX/jomini/jomini_river_bottom.fxh -> jomini/gfx/FX/jomini/jomini_river.fxh
+jomini/gfx/FX/jomini/jomini_unsigned_distancefield.shader -> jomini/gfx/FX/jomini/jomini_colormap_constants.fxh
+jomini/gfx/FX/jomini/jomini_water.fxh -> clausewitz/gfx/FX/cw/upscale_utils.fxh
+jomini/gfx/FX/jomini/jomini_water.fxh -> clausewitz/gfx/FX/cw/utility.fxh
+jomini/gfx/FX/jomini/jomini_water_pdxmesh.fxh -> clausewitz/gfx/FX/cw/pdxmesh.fxh
+jomini/gfx/FX/jomini/jomini_water_pdxmesh.fxh -> jomini/gfx/FX/jomini/jomini_water.fxh
+
+[UNRESOLVED INCLUDES]

@@ -1,0 +1,153 @@
+hbox = {
+	name = "heightmap_painter_widget"
+	margin = { 2 2 }
+	spacing = 4
+
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = expanding
+
+	brush_settings_button = {
+		widgetid = "heightmap_painter_settings"
+		shortcut = "tooloption_1"
+	}
+
+	pixelsnap_checkbutton = {
+	}
+
+	tooloptions_divider = {
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_up"
+		
+		raw_text = "Up"
+		raw_tooltip = "Raise terrain"
+		shortcut = "tool_mode_positive"
+
+		checked = yes
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_down"
+
+		raw_text = "Dn"
+		raw_tooltip = "Lower terrain"
+		shortcut = "tool_mode_negative"
+	}
+
+	tooloptions_divider = {
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_raise"
+
+		raw_text = "Raise"
+		raw_tooltip = "Raise terrain"
+		shortcut = "tool_mode_positive_alternate"
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_lower"
+
+		enabled = no
+		raw_text = "Lowr"
+		raw_tooltip = "Lower terrain"
+		shortcut = "tool_mode_negative_alternate"
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_amplify"
+
+		raw_text = "Amp"
+		raw_tooltip = "Amplify"
+		shortcut = "tooloption_6"
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_subtract_factor"
+
+		raw_text = "SubF"
+		raw_tooltip = "Subtract factor"
+		shortcut = "tooloption_7"
+	}
+
+	tooloptions_divider = {
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_smooth"
+
+		enabled = yes
+		raw_text = "Smo"
+		raw_tooltip = "Smooth terrain"
+		shortcut = "tooloption_8"
+	}
+
+	tooloptions_textbox = {
+		raw_text = "Smooth amount:"
+	}
+
+	tooloptions_textinput = {
+		text = "[HeightmapPainter.GetSmoothAmount]"
+		ontextchanged = "[HeightmapPainter.SetSmoothAmount]"
+	}
+
+	tooloptions_divider = {
+	}
+	
+	tooloptions_checkbutton = {
+		name = "mode_flatten"
+
+		enabled = yes
+		raw_text = "Fla"
+		raw_tooltip = "Flatten terrain"
+		shortcut = "tooloption_9"
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_flatten_down"
+
+		enabled = yes
+		raw_text = "FlD"
+		raw_tooltip = "Flatten terrain down"
+	}
+
+	tooloptions_checkbutton = {
+		name = "mode_flatten_up"
+
+		enabled = yes
+		raw_text = "FlU"
+		raw_tooltip = "Flatten terrain up"
+	}
+
+	tooloptions_divider = {
+	}
+
+	toolbox_button = {
+		shortcut = "reload_heightmap"
+		onclick = "[HeightmapPainter.ReloadHeightmap]"
+		raw_tooltip = "Reload Heightmap - WARNING! This wipes your undo-history."
+
+		shortcut = "reload_heightmap"
+
+		toolbox_icon = {
+			texture = "gfx/tools/material/reload_heightmap.png"
+		}
+	}
+
+	widget = {
+		name = "spacer"
+		layoutpolicy_horizontal = expanding
+	}
+}
+
+toolbox_checkbutton = {
+	name = "heightmap_painter_toolbox_button"
+	shortcut = "heightmap_painter"
+	raw_tooltip = "Heightmap Painter"
+	checked = "[HeightmapPainterMode.IsSelected]"
+	
+	toolbox_icon = {
+		texture = "gfx/tools/material/terrain.png"
+	}
+}

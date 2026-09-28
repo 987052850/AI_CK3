@@ -1,0 +1,504 @@
+﻿
+
+
+
+#################
+#	Meshes	#
+#################
+
+
+##Example##
+
+#pdxmesh = { #PLACEHOLDER
+#	name = "test_cube_mesh"
+#	file = "test_cube.mesh"
+#
+#	meshsettings = {
+#		name = "pCubeShape1"
+#		index = 0
+#		texture_diffuse = "test_diffuse.dds"
+#		texture_normal = "nonormal.dds"
+#		texture_specular = "nospec.dds"
+#		shader = "court"
+#		shader_file = "gfx/FX/court_scene.shader"
+#	}
+#}
+
+
+
+
+##### Rock -----------------------------------------
+
+pdxmesh = {
+	name = "ep1_generic_rock_01_a_mesh"
+	file = "ep1_generic_rock_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 4.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_generic_rock_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_rock_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_rock_01_a_normal.dds"
+		texture_specular = "ep1_generic_rock_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_rock_01_a_LODShape1"
+		index = 0
+		texture_diffuse = "ep1_generic_rock_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_rock_01_a_normal.dds"
+		texture_specular = "ep1_generic_rock_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_rock_01_a_LODShape2"
+		index = 0
+		texture_diffuse = "ep1_generic_rock_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_rock_01_a_normal.dds"
+		texture_specular = "ep1_generic_rock_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+##### Cross -----------------------------------------
+
+pdxmesh = {
+	name = "ep1_generic_cross_01_a_mesh"
+	file = "ep1_generic_cross_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 6.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_generic_cross_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_cross_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_cross_01_a_normal.dds"
+		texture_specular = "ep1_generic_cross_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_cross_01_a_LODShape1"
+		index = 0
+		texture_diffuse = "ep1_generic_cross_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_cross_01_a_normal.dds"
+		texture_specular = "ep1_generic_cross_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_cross_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_cross_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_cross_01_a_normal.dds"
+		texture_specular = "ep1_generic_cross_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+pdxmesh = {
+	name = "ep1_generic_back_frame_01_a_mesh"
+	file = "ep1_generic_back_frame_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 25.0 }
+		lod = { index = 2 percent = 12.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_generic_back_frame_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_back_frame_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_back_frame_01_a_normal.dds"
+		texture_specular = "ep1_generic_back_frame_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_back_frame_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_back_frame_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_back_frame_01_a_normal.dds"
+		texture_specular = "ep1_generic_back_frame_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_back_frame_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_back_frame_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_back_frame_01_a_normal.dds"
+		texture_specular = "ep1_generic_back_frame_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_generic_back_frame_02_a_mesh"
+	file = "ep1_generic_back_frame_02_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 25.0 }
+		lod = { index = 2 percent = 12.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_generic_back_frame_02_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_back_frame_02_a_diffuse.dds"
+		texture_normal = "ep1_generic_back_frame_02_a_normal.dds"
+		texture_specular = "ep1_generic_back_frame_02_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_back_frame_02_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_back_frame_02_a_diffuse.dds"
+		texture_normal = "ep1_generic_back_frame_02_a_normal.dds"
+		texture_specular = "ep1_generic_back_frame_02_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_back_frame_02_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_back_frame_02_a_diffuse.dds"
+		texture_normal = "ep1_generic_back_frame_02_a_normal.dds"
+		texture_specular = "ep1_generic_back_frame_02_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+##### Jewelry -----------------------------------------
+
+
+pdxmesh = {
+	name = "ep1_generic_jewelry_01_a_mesh"
+	file = "ep1_generic_jewelry_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 12.0 }
+		lod = { index = 3 percent = 6.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_generic_jewelry_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_jewelry_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_jewelry_01_a_normal.dds"
+		texture_specular = "ep2_generic_jewelry_01_a_properties.dds"
+		shader = "court_gemcube_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_jewelry_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_jewelry_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_jewelry_01_a_normal.dds"
+		texture_specular = "ep1_generic_jewelry_01_a_properties.dds"
+		shader = "court_gemcube_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_jewelry_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_jewelry_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_jewelry_01_a_normal.dds"
+		texture_specular = "ep1_generic_jewelry_01_a_properties.dds"
+		shader = "court_gemcube_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_jewelry_01_a_LOD3Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_jewelry_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_jewelry_01_a_normal.dds"
+		texture_specular = "ep1_generic_jewelry_01_a_properties.dds"
+		shader = "court_gemcube_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_generic_diamond_massive_01_a_mesh"
+	file = "ep1_generic_diamond_massive_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 15.0 }
+		lod = { index = 2 percent = 3.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_generic_diamond_massive_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_generic_diamond_massive_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_diamond_massive_01_a_normal.dds"
+		texture_specular = "ep1_generic_diamond_massive_01_a_properties.dds"
+		shader = "court_gemcube"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_diamond_massive_01_a_LODShape1"
+		index = 0
+		texture_diffuse = "ep1_generic_diamond_massive_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_diamond_massive_01_a_normal.dds"
+		texture_specular = "ep1_generic_diamond_massive_01_a_properties.dds"
+		shader = "court_gemcube"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_generic_diamond_massive_01_a_LODShape2"
+		index = 0
+		texture_diffuse = "ep1_generic_diamond_massive_01_a_diffuse.dds"
+		texture_normal = "ep1_generic_diamond_massive_01_a_normal.dds"
+		texture_specular = "ep1_generic_diamond_massive_01_a_properties.dds"
+		shader = "court_gemcube"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+
+
+##### Banner -----------------------------------------
+
+pdxmesh = { #PLACEHOLDER
+	name = "ep1_generic_banner_01_a_mesh"
+	file = "ep1_generic_banner_01_a.mesh"
+
+	meshsettings = {
+		name = "pCubeShape1"
+		index = 0
+		texture_diffuse = "test_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = { #PLACEHOLDER
+	name = "ep1_generic_coa_banner_01_a_mesh"
+	file = "ep1_generic_coa_banner_01_a.mesh"
+
+	meshsettings = {
+		name = "pCubeShape1"
+		index = 0
+		texture_diffuse = "test_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+#### Tool ------------------------------------------
+
+pdxmesh = { #PLACEHOLDER
+	name = "ep1_tool_artist_mesh"
+	file = "ep1_tool_artist.mesh"
+
+	meshsettings = {
+		name = "pCubeShape1"
+		index = 0
+		texture_diffuse = "test_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "noproperties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_tool_quill_mesh"
+	file = "ep1_tool_quill.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 35.0 }
+		lod = { index = 2 percent = 20.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_tool_quill_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_tool_quill_diffuse.dds"
+		texture_normal = "ep1_tool_quill_normal.dds"
+		texture_specular = "ep1_tool_quill_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_tool_quill_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_tool_quill_diffuse.dds"
+		texture_normal = "ep1_tool_quill_normal.dds"
+		texture_specular = "ep1_tool_quill_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_tool_quill_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_tool_quill_diffuse.dds"
+		texture_normal = "ep1_tool_quill_normal.dds"
+		texture_specular = "ep1_tool_quill_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+pdxmesh = { #PLACEHOLDER
+	name = "ep1_tool_sculptor_mesh"
+	file = "ep1_tool_sculptor.mesh"
+
+	meshsettings = {
+		name = "pCubeShape1"
+		index = 0
+		texture_diffuse = "test_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "noproperties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = { #PLACEHOLDER
+	name = "ep1_tool_physician_mesh"
+	file = "ep1_tool_physician.mesh"
+
+	meshsettings = {
+		name = "pCubeShape1"
+		index = 0
+		texture_diffuse = "test_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "noproperties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+#################
+#	Entities	#
+#################
+
+
+
+##### Rock -----------------------------------------
+entity = {
+	name = "ep1_generic_rock_01_a_entity"
+	pdxmesh = "ep1_generic_rock_01_a_mesh"
+}
+
+##### Cross -----------------------------------------
+
+entity = {
+	name = "ep1_generic_cross_01_a_entity"
+	pdxmesh = "ep1_generic_cross_01_a_mesh"
+}
+
+##### Backframe -----------------------------------------
+entity = {
+	name = "ep1_generic_back_frame_01_a_entity"
+	pdxmesh = "ep1_generic_back_frame_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_generic_back_frame_02_a_entity"
+	pdxmesh = "ep1_generic_back_frame_02_a_mesh"
+}
+
+##### Jewelry -----------------------------------------
+entity = {
+	name = "ep1_generic_jewelry_01_a_entity"
+	pdxmesh = "ep1_generic_jewelry_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_generic_diamond_massive_01_a_entity"
+	pdxmesh = "ep1_generic_diamond_massive_01_a_mesh"
+}
+
+##### Banner -----------------------------------------
+
+entity = {
+	name 	= "ep1_generic_banner_01_a_entity"
+	pdxmesh	= "ep1_generic_banner_01_a_mesh"
+}
+
+
+entity = {
+	name 	= "ep1_generic_coa_banner_01_a_entity"
+	pdxmesh	= "ep1_generic_coa_banner_01_a_mesh"
+}
+
+#### Tool --------------------------------------------
+
+entity = {
+	name = "ep1_tool_artist_entity"
+	pdxmesh = "ep1_tool_artist_mesh"
+}
+
+entity = {
+	name = "ep1_tool_quill_left_entity"
+	pdxmesh = "ep1_tool_quill_mesh"
+}
+
+entity = {
+	name = "ep1_tool_quill_right_entity"
+	pdxmesh = "ep1_tool_quill_mesh"
+}
+
+entity = {
+	name = "ep1_tool_sculptor_entity"
+	pdxmesh = "ep1_tool_sculptor_mesh"
+}
+
+entity = {
+	name = "ep1_tool_physician_entity"
+	pdxmesh = "ep1_tool_physician_mesh"
+}
+
+
+
+#################
+#	Clones		#
+#################
+
+#entity = {
+#	name 	= "test_clone_entity"
+#	clone 	= "test_cube_entity"
+#
+#}

@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "CK3\u539F\u7248\u5730\u8868\u5408\u6210_\u5149\u7167\u524D"
+  m_Shader: {fileID: 4800000, guid: ce6e416f7b2479d41a3fece774d020e2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _CK3MAPLIGHTINGENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BorderDistanceFieldTexture:
+        m_Texture: {fileID: 2800000, guid: 23e16cc363f966d4dab9686d013ede2a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CK3HeightLookupTexture:
+        m_Texture: {fileID: 2800000, guid: 85fb8460708466f49b4dfd0be7da7a0a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CK3PackedHeightTexture:
+        m_Texture: {fileID: 2800000, guid: a969cacbfe983104793b7c33ee3d68e4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CK3TerrainSunnyEnvironmentMap:
+        m_Texture: {fileID: 8900000, guid: 5faa7892b9d2d804fbb18222bc5684e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorTexture:
+        m_Texture: {fileID: 2800000, guid: da969b59562a40c4ba2fbc48b8a41fcf, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailIndexTexture:
+        m_Texture: {fileID: 2800000, guid: 5e61735f283a3cd40b26bffa3d292be6, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMaskTexture:
+        m_Texture: {fileID: 2800000, guid: f91bedbb3dbaf55488b8f28f542a8ce1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTextures:
+        m_Texture: {fileID: 18700000, guid: 32a8ecc2e6ec13b4cbb2f42917848419, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlatMapTexture:
+        m_Texture: {fileID: 2800000, guid: c3bff95ad01d663438dfca7cd622b448, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaterialTextures:
+        m_Texture: {fileID: 18700000, guid: af0207bf6a1827741b735f70a607ada4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTextures:
+        m_Texture: {fileID: 18700000, guid: 8ab0d00b220b98045b2d997e3ecdaa2d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaperTearMask:
+        m_Texture: {fileID: 2800000, guid: ae4af63390d6c714ba3ea3c1f2df24db, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProvinceColorIndirectionTexture:
+        m_Texture: {fileID: 2800000, guid: 761e55afb76dba3408d8f45c22200229, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProvinceColorTexture:
+        m_Texture: {fileID: 2800000, guid: 1355d38fb8efeef459cb3f4fbb0d38e4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CK3BaseTileSize: 65
+    - _CK3DistanceSampleOffset: 0.75
+    - _CK3HeightScale: 50
+    - _CK3MacroColorStrength: 1
+    - _CK3MapLightingEnabled: 1
+    - _CK3NormQuadtreeToWorld: 16384
+    - _CK3NormalHeightScale: 0.8
+    - _CK3NormalStepSize: 1.6
+    - _CK3ProvinceOverlayBlend: 1
+    - _CK3ProvinceOverlayEnabled: 1
+    - _CK3SkirtSize: -5
+    - _CK3TerrainSunnyIblScale: 0.25
+    - _CK3TerrainSunnySpecularFactor: 1
+    - _CK3TerrainSunnySunIntensity: 8
+    - _CK3TerrainVerticalOffset: 0
+    - _CK3WaterZoomedInZoomedOutFactor: 1
+    - _DetailBlendRange: 0.25
+    - _GB_EdgeAlpha: 1
+    - _GB_EdgeColorMul: 0.7
+    - _GB_EdgeSmoothness: 0
+    - _GB_EdgeWidth: 0.05
+    - _GB_GradientAlphaInside: 0.742
+    - _GB_GradientAlphaOutside: 0.903
+    - _GB_GradientColorMul: 1
+    - _GB_GradientWidth: 0.4
+    - _GB_PostLightingBlend: 0.95
+    - _GB_PreLightingBlend: 0
+    m_Colors:
+    - _CK3IndirectionSize: {r: 288, g: 144, b: 0, a: 0}
+    - _CK3PackedHeightMapSize: {r: 3185, g: 4061, b: 0, a: 0}
+    - _CK3TerrainSunnySunColor: {r: 1, g: 0.9, b: 0.8, a: 1}
+    - _CK3TileToHeightMap0: {r: 0.020408163, g: 0.01600591, b: 0, a: 0}
+    - _CK3TileToHeightMap1: {r: 0.010361068, g: 0.008126077, b: 0, a: 0.34400395}
+    - _CK3TileToHeightMap2: {r: 0.0053375196, g: 0.004186161, b: 0, a: 0.7704999}
+    - _CK3TileToHeightMap3: {r: 0.0028257456, g: 0.002216203, b: 0, a: 0.9086432}
+    - _CK3TileToHeightMap4: {r: 0.0015698588, g: 0.0012312238, b: 0, a: 0.95075107}
+    - _CK3WorldExtents: {r: 9215, g: 4607, b: 0, a: 0}
+    - _CK3WorldSpaceToLookup: {r: 0.000108506945, g: 0.00021701389, b: 0, a: 0}
+    - _DetailTexelSize: {r: 0.000108506945, g: 0.00021701389, b: 0, a: 0}
+    - _DetailTextureSize: {r: 9216, g: 4608, b: 0, a: 0}
+    - _DetailTileFactor: {r: 0.03662507, g: -0.03662507, b: 0, a: 0}
+    - _DetailTileOffset: {r: 0, g: -512, b: 0, a: 0}
+    - _WorldSpaceToDetail: {r: 0.000108506945, g: 0.00021701389, b: 0, a: 0}
+    - _WorldSpaceToTerrain01: {r: 0.00010851872, g: 0.000217061, b: 0, a: 0}
+  m_BuildTextureStacks: []

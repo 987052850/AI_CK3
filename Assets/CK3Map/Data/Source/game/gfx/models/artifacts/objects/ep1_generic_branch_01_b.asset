@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "ep1_generic_branch_01_b_mesh"
+	file = "ep1_generic_branch_01_b.mesh"
+
+	meshsettings = {
+		name = "ep1_generic_branch_01_bShape"
+		index = 0
+		texture_diffuse = "ep1_generic_branch_01_diffuse.dds"
+		texture_normal = "ep1_generic_branch_01_normal.dds"
+		texture_specular = "ep1_generic_branch_01_properties.dds"
+		shader = "court_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "ep1_generic_branch_01_b_entity"
+	pdxmesh = "ep1_generic_branch_01_b_mesh"
+}

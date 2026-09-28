@@ -1,0 +1,336 @@
+## Table
+pdxmesh = {
+	name = "mpo_steppe_table_mesh"
+	file = "mpo_steppe_table.mesh"
+
+	meshsettings = {
+		name = "mpo_steppe_tableShape"
+		index = 0
+		texture_diffuse = "mpo_steppe_table_diffuse.dds"
+		texture_normal = "mpo_steppe_table_normal.dds"
+		texture_specular = "mpo_steppe_table_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_table_entity"
+	pdxmesh = "mpo_steppe_table_mesh"
+}
+
+## Tugs
+pdxmesh = {
+	name = "mpo_steppe_tug_01_mesh"
+	file = "mpo_steppe_tug_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_tug_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "court_pattern"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_01_hair_LOD0Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "court_pattern"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_01_hair_LOD1Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "court_pattern"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_01_hair_LOD2Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_tug_01_entity"
+	pdxmesh = "mpo_steppe_tug_01_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/artifacts/objects/mpo/mpo_steppe_tugs_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "mpo_steppe_royal_court_scarfs"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+pdxmesh = {
+	name = "mpo_steppe_tug_02_mesh"
+	file = "mpo_steppe_tug_02.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_tug_02_LOD0Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "court_pattern"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_02_hair_LOD0Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "court_pattern"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_02_hair_LOD1Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "court_pattern"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_tug_02_hair_LOD2Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_tugs_diffuse.dds"
+		texture_normal = "mpo_steppe_tugs_normal.dds"
+		texture_specular = "mpo_steppe_tugs_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_tug_02_entity"
+	pdxmesh = "mpo_steppe_tug_02_mesh"
+	
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/artifacts/objects/mpo/mpo_steppe_tugs_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "mpo_steppe_royal_court_scarfs"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+## Panels
+pdxmesh = {
+	name = "mpo_steppe_panels_mesh"
+	file = "mpo_steppe_panels.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_panels_LOD0Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_panels_diffuse.dds"
+		texture_normal = "mpo_steppe_panels_normal.dds"
+		texture_specular = "mpo_steppe_panels_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_panels_LOD1Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_panels_diffuse.dds"
+		texture_normal = "mpo_steppe_panels_normal.dds"
+		texture_specular = "mpo_steppe_panels_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_panels_LOD2Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_panels_diffuse.dds"
+		texture_normal = "mpo_steppe_panels_normal.dds"
+		texture_specular = "mpo_steppe_panels_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_panels_entity"
+	pdxmesh = "mpo_steppe_panels_mesh"
+}
+
+## Cushions
+pdxmesh = {
+	name = "mpo_steppe_cushions_mesh"
+	file = "mpo_steppe_cushions.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_cushions_LOD0Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_cushions_diffuse.dds"
+		texture_normal = "mpo_steppe_cushions_normal.dds"
+		texture_specular = "mpo_steppe_cushions_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_cushions_LOD1Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_cushions_diffuse.dds"
+		texture_normal = "mpo_steppe_cushions_normal.dds"
+		texture_specular = "mpo_steppe_cushions_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+	meshsettings = {
+		name = "mpo_steppe_cushions_LOD2Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_cushions_diffuse.dds"
+		texture_normal = "mpo_steppe_cushions_normal.dds"
+		texture_specular = "mpo_steppe_cushions_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_cushions_entity"
+	pdxmesh = "mpo_steppe_cushions_mesh"
+}
+
+## Chests
+pdxmesh = {
+	name = "mpo_steppe_chest_01_mesh"
+	file = "mpo_steppe_chest_01.mesh"
+
+	meshsettings = {
+		name = "mpo_steppe_chest_01Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_chest_diffuse.dds"
+		texture_normal = "mpo_steppe_chest_normal.dds"
+		texture_specular = "mpo_steppe_chest_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_chest_01_entity"
+	pdxmesh = "mpo_steppe_chest_01_mesh"
+}
+
+pdxmesh = {
+	name = "mpo_steppe_chest_02_mesh"
+	file = "mpo_steppe_chest_02.mesh"
+
+	meshsettings = {
+		name = "mpo_steppe_chest_02Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_chest_diffuse.dds"
+		texture_normal = "mpo_steppe_chest_normal.dds"
+		texture_specular = "mpo_steppe_chest_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_chest_02_entity"
+	pdxmesh = "mpo_steppe_chest_02_mesh"
+}
+
+pdxmesh = {
+	name = "mpo_steppe_chest_03_mesh"
+	file = "mpo_steppe_chest_03.mesh"
+
+	meshsettings = {
+		name = "mpo_steppe_chest_03Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_chest_diffuse.dds"
+		texture_normal = "mpo_steppe_chest_normal.dds"
+		texture_specular = "mpo_steppe_chest_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+}
+
+entity = {
+	name = "mpo_steppe_chest_03_entity"
+	pdxmesh = "mpo_steppe_chest_03_mesh"
+}

@@ -1,0 +1,974 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfb6df8a521ecc42abcf2ca0b6452a7, type: 3}
+  m_Name: "CK3\u539F\u7248\u5730\u8868\u6750\u8D28\u5E93"
+  m_EditorClassIdentifier: 
+  materials:
+  - originalIndex: 0
+    displayName: drought
+    id: drought
+    dynamicOverlay: 1
+    tileFactor: 337.5
+    diffusePath: drought_diffuse.dds
+    normalPath: drought_normal.dds
+    materialPath: drought_properties.dds
+    maskPath: masks/drought_mask.png
+  - originalIndex: 1
+    displayName: drought_cracks
+    id: drought_cracks
+    dynamicOverlay: 1
+    tileFactor: 337.5
+    diffusePath: drought_cracks_diffuse.dds
+    normalPath: drought_cracks_normal.dds
+    materialPath: drought_cracks_properties.dds
+    maskPath: masks/drought_cracks_mask.png
+  - originalIndex: 2
+    displayName: flood
+    id: flood
+    dynamicOverlay: 1
+    tileFactor: 337.5
+    diffusePath: flood_diffuse.dds
+    normalPath: flood_normal.dds
+    materialPath: flood_properties.dds
+    maskPath: masks/flood_mask.png
+  - originalIndex: 3
+    displayName: summer_grass
+    id: summer_grass
+    dynamicOverlay: 1
+    tileFactor: 337.5
+    diffusePath: summer_grass_diffuse.dds
+    normalPath: summer_grass_normal.dds
+    materialPath: summer_grass_properties.dds
+    maskPath: masks/summer_grass_mask.png
+  - originalIndex: 4
+    displayName: winter_effect
+    id: winter_effect
+    dynamicOverlay: 1
+    tileFactor: 337.5
+    diffusePath: winter_effect_diffuse.dds
+    normalPath: winter_effect_normal.dds
+    materialPath: winter_effect_properties.dds
+    maskPath: masks/winter_effect_mask.png
+  - originalIndex: 5
+    displayName: _debug
+    id: debug
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: _debug_diffuse.dds
+    normalPath: _debug_normal.dds
+    materialPath: _debug_properties.dds
+    maskPath: masks/_debug_mask.png
+  - originalIndex: 6
+    displayName: beach_02
+    id: beach_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: beach_02_diffuse.dds
+    normalPath: beach_02_normal.dds
+    materialPath: beach_02_properties.dds
+    maskPath: masks/beach_02_mask.png
+  - originalIndex: 7
+    displayName: beach_02_mediterranean
+    id: beach_02_mediterranean
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: beach_02_mediterranean_diffuse.dds
+    normalPath: beach_02_mediterranean_normal.dds
+    materialPath: beach_02_mediterranean_properties.dds
+    maskPath: masks/beach_02_mediterranean_mask.png
+  - originalIndex: 8
+    displayName: beach_02_pebbles
+    id: beach_02_pebbles
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: beach_02_pebbles_diffuse.dds
+    normalPath: beach_02_pebbles_normal.dds
+    materialPath: beach_02_pebbles_properties.dds
+    maskPath: masks/beach_02_pebbles_mask.png
+  - originalIndex: 9
+    displayName: coastline_cliff_desert
+    id: coastline_cliff_desert
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: coastline_cliff_desert_diffuse.dds
+    normalPath: coastline_cliff_grey_normal.dds
+    materialPath: coastline_cliff_grey_properties.dds
+    maskPath: masks/coastline_cliff_desert_mask.png
+  - originalIndex: 10
+    displayName: coastline_cliff_grey
+    id: coastline_cliff_grey
+    dynamicOverlay: 0
+    tileFactor: 500
+    diffusePath: coastline_cliff_grey_diffuse.dds
+    normalPath: coastline_cliff_grey_normal.dds
+    materialPath: coastline_cliff_grey_properties.dds
+    maskPath: masks/coastline_cliff_grey_mask.png
+  - originalIndex: 11
+    displayName: desert_01
+    id: desert_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: desert_01_diffuse.dds
+    normalPath: desert_01_normal.dds
+    materialPath: desert_01_properties.dds
+    maskPath: masks/desert_01_mask.png
+  - originalIndex: 12
+    displayName: desert_02
+    id: desert_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: desert_02_diffuse.dds
+    normalPath: desert_02_normal.dds
+    materialPath: desert_02_properties.dds
+    maskPath: masks/desert_02_mask.png
+  - originalIndex: 13
+    displayName: desert_cracked
+    id: desert_cracked
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: desert_cracked_diffuse.dds
+    normalPath: desert_cracked_normal.dds
+    materialPath: desert_cracked_properties.dds
+    maskPath: masks/desert_cracked_mask.png
+  - originalIndex: 14
+    displayName: desert_flat_01
+    id: desert_flat_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: desert_flat_01_diffuse.dds
+    normalPath: desert_flat_01_normal.dds
+    materialPath: desert_flat_01_properties.dds
+    maskPath: masks/desert_flat_01_mask.png
+  - originalIndex: 15
+    displayName: desert_rocky
+    id: desert_rocky
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: desert_rocky_diffuse.dds
+    normalPath: desert_rocky_normal.dds
+    materialPath: desert_rocky_properties.dds
+    maskPath: masks/desert_rocky_mask.png
+  - originalIndex: 16
+    displayName: desert_wavy_01
+    id: desert_wavy_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: desert_wavy_01_diffuse.dds
+    normalPath: desert_wavy_01_normal.dds
+    materialPath: desert_wavy_01_properties.dds
+    maskPath: masks/desert_wavy_01_mask.png
+  - originalIndex: 17
+    displayName: desert_wavy_01_larger
+    id: desert_wavy_01_larger
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: desert_wavy_01_larger_diffuse.dds
+    normalPath: desert_wavy_01_larger_normal.dds
+    materialPath: desert_wavy_01_larger_properties.dds
+    maskPath: masks/desert_wavy_01_larger_mask.png
+  - originalIndex: 18
+    displayName: drylands_01
+    id: drylands_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: drylands_01_diffuse.dds
+    normalPath: drylands_01_normal.dds
+    materialPath: drylands_01_properties.dds
+    maskPath: masks/drylands_01_mask.png
+  - originalIndex: 19
+    displayName: drylands_01_cracked
+    id: drylands_01_cracked
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: drylands_01_cracked_diffuse.dds
+    normalPath: drylands_01_cracked_normal.dds
+    materialPath: drylands_01_cracked_properties.dds
+    maskPath: masks/drylands_01_cracked_mask.png
+  - originalIndex: 20
+    displayName: drylands_01_grassy
+    id: drylands_01_grassy
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: drylands_01_grassy_diffuse.dds
+    normalPath: drylands_01_grassy_normal.dds
+    materialPath: drylands_01_grassy_properties.dds
+    maskPath: masks/drylands_01_grassy_mask.png
+  - originalIndex: 21
+    displayName: farm_paddy_01
+    id: farm_paddy_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: farm_paddy_01_diffuse.dds
+    normalPath: farm_paddy_01_normal.dds
+    materialPath: farm_paddy_01_properties.dds
+    maskPath: masks/farm_paddy_01_mask.png
+  - originalIndex: 22
+    displayName: farmland_01
+    id: farmland_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: farmland_01_diffuse.dds
+    normalPath: farmland_01_normal.dds
+    materialPath: farmland_01_properties.dds
+    maskPath: masks/farmland_01_mask.png
+  - originalIndex: 23
+    displayName: floodplains_01
+    id: floodplains_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: floodplains_01_diffuse.dds
+    normalPath: floodplains_01_normal.dds
+    materialPath: floodplains_01_properties.dds
+    maskPath: masks/floodplains_01_mask.png
+  - originalIndex: 24
+    displayName: forest_jungle_01
+    id: forest_jungle_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: forest_jungle_01_diffuse.dds
+    normalPath: forest_jungle_01_normal.dds
+    materialPath: forest_jungle_01_properties.dds
+    maskPath: masks/forest_jungle_01_mask.png
+  - originalIndex: 25
+    displayName: forest_leaf_01
+    id: forest_leaf_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: forest_leaf_01_diffuse.dds
+    normalPath: forest_leaf_01_normal.dds
+    materialPath: forest_leaf_01_properties.dds
+    maskPath: masks/forest_leaf_01_mask.png
+  - originalIndex: 26
+    displayName: forest_pine_01
+    id: forest_pine_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: forest_pine_01_diffuse.dds
+    normalPath: forest_pine_01_normal.dds
+    materialPath: forest_pine_01_properties.dds
+    maskPath: masks/forest_pine_01_mask.png
+  - originalIndex: 27
+    displayName: forestfloor
+    id: forestfloor
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: forestfloor_diffuse.dds
+    normalPath: forestfloor_normal.dds
+    materialPath: forestfloor_properties.dds
+    maskPath: masks/forestfloor_mask.png
+  - originalIndex: 28
+    displayName: hills_01
+    id: hills_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: hills_01_diffuse.dds
+    normalPath: hills_01_normal.dds
+    materialPath: hills_01_properties.dds
+    maskPath: masks/hills_01_mask.png
+  - originalIndex: 29
+    displayName: hills_01_rocks
+    id: hills_01_rocks
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: hills_01_rocks_diffuse.dds
+    normalPath: hills_01_rocks_normal.dds
+    materialPath: hills_01_rocks_properties.dds
+    maskPath: masks/hills_01_rocks_mask.png
+  - originalIndex: 30
+    displayName: hills_01_rocks_medi
+    id: hills_01_rocks_medi
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: hills_01_rocks_medi_diffuse.dds
+    normalPath: hills_01_rocks_medi_normal.dds
+    materialPath: hills_01_rocks_medi_properties.dds
+    maskPath: masks/hills_01_rocks_medi_mask.png
+  - originalIndex: 31
+    displayName: hills_01_rocks_small
+    id: hills_01_rocks_small
+    dynamicOverlay: 0
+    tileFactor: 900
+    diffusePath: hills_01_rocks_small_diffuse.dds
+    normalPath: hills_01_rocks_small_normal.dds
+    materialPath: hills_01_rocks_small_properties.dds
+    maskPath: masks/hills_01_rocks_small_mask.png
+  - originalIndex: 32
+    displayName: india_farmlands
+    id: india_farmlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: india_farmlands_diffuse.dds
+    normalPath: india_farmlands_normal.dds
+    materialPath: india_farmlands_properties.dds
+    maskPath: masks/india_farmlands_mask.png
+  - originalIndex: 33
+    displayName: medi_dry_mud
+    id: medi_dry_mud
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: medi_dry_mud_diffuse.dds
+    normalPath: medi_dry_mud_normal.dds
+    materialPath: medi_dry_mud_properties.dds
+    maskPath: masks/medi_dry_mud_mask.png
+  - originalIndex: 34
+    displayName: medi_farmlands
+    id: medi_farmlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: medi_farmlands_diffuse.dds
+    normalPath: medi_farmlands_normal.dds
+    materialPath: medi_farmlands_properties.dds
+    maskPath: masks/medi_farmlands_mask.png
+  - originalIndex: 35
+    displayName: medi_grass_01
+    id: medi_grass_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: medi_grass_01_diffuse.dds
+    normalPath: medi_grass_01_normal.dds
+    materialPath: medi_grass_01_properties.dds
+    maskPath: masks/medi_grass_01_mask.png
+  - originalIndex: 36
+    displayName: medi_lumpy_grass
+    id: medi_lumpy_grass
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: medi_lumpy_grass_diffuse.dds
+    normalPath: medi_lumpy_grass_normal.dds
+    materialPath: medi_lumpy_grass_properties.dds
+    maskPath: masks/medi_lumpy_grass_mask.png
+  - originalIndex: 37
+    displayName: medi_noisy_grass
+    id: medi_noisy_grass
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: medi_noisy_grass_diffuse.dds
+    normalPath: medi_noisy_grass_normal.dds
+    materialPath: medi_noisy_grass_properties.dds
+    maskPath: masks/medi_noisy_grass_mask.png
+  - originalIndex: 38
+    displayName: mud_wet_01
+    id: mud_wet_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: mud_wet_01_diffuse.dds
+    normalPath: mud_wet_01_normal.dds
+    materialPath: mud_wet_01_properties.dds
+    maskPath: masks/mud_wet_01_mask.png
+  - originalIndex: 39
+    displayName: northern_plains_01
+    id: northern_plains_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: northern_plains_01_diffuse.dds
+    normalPath: northern_plains_01_normal.dds
+    materialPath: northern_plains_01_properties.dds
+    maskPath: masks/northern_plains_01_mask.png
+  - originalIndex: 40
+    displayName: oasis
+    id: oasis
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: oasis_diffuse.dds
+    normalPath: oasis_normal.dds
+    materialPath: oasis_properties.dds
+    maskPath: masks/oasis_mask.png
+  - originalIndex: 41
+    displayName: plains_01
+    id: plains_01
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: plains_01_diffuse.dds
+    normalPath: plains_01_normal.dds
+    materialPath: plains_01_properties.dds
+    maskPath: masks/plains_01_mask.png
+  - originalIndex: 42
+    displayName: plains_01_dry
+    id: plains_01_dry
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: plains_01_dry_diffuse.dds
+    normalPath: plains_01_normal.dds
+    materialPath: plains_01_properties.dds
+    maskPath: masks/plains_01_dry_mask.png
+  - originalIndex: 43
+    displayName: plains_01_dry_mud
+    id: plains_01_dry_mud
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: plains_01_dry_mud_diffuse.dds
+    normalPath: plains_01_dry_mud_normal.dds
+    materialPath: plains_01_dry_mud_properties.dds
+    maskPath: masks/plains_01_dry_mud_mask.png
+  - originalIndex: 44
+    displayName: plains_01_noisy
+    id: plains_01_noisy
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: plains_01_noisy_diffuse.dds
+    normalPath: plains_01_noisy_normal.dds
+    materialPath: plains_01_noisy_properties.dds
+    maskPath: masks/plains_01_noisy_mask.png
+  - originalIndex: 45
+    displayName: plains_01_rough
+    id: plains_01_rough
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: plains_01_rough_diffuse.dds
+    normalPath: plains_01_rough_normal.dds
+    materialPath: plains_01_rough_properties.dds
+    maskPath: masks/plains_01_rough_mask.png
+  - originalIndex: 46
+    displayName: snow
+    id: snow
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: snow_diffuse.dds
+    normalPath: snow_normal.dds
+    materialPath: snow_properties.dds
+    maskPath: masks/snow_mask.png
+  - originalIndex: 47
+    displayName: steppe_bushes
+    id: steppe_bushes
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: steppe_bushes_diffuse.dds
+    normalPath: steppe_bushes_normal.dds
+    materialPath: steppe_bushes_properties.dds
+    maskPath: masks/steppe_bushes_mask.png
+  - originalIndex: 48
+    displayName: steppe_grass
+    id: steppe_grass
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: steppe_grass_diffuse.dds
+    normalPath: steppe_grass_normal.dds
+    materialPath: steppe_grass_properties.dds
+    maskPath: masks/steppe_grass_mask.png
+  - originalIndex: 49
+    displayName: steppe_rocks
+    id: steppe_rocks
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: steppe_rocks_diffuse.dds
+    normalPath: steppe_rocks_normal.dds
+    materialPath: steppe_rocks_properties.dds
+    maskPath: masks/steppe_rocks_mask.png
+  - originalIndex: 50
+    displayName: wetlands_02
+    id: wetlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: wetlands_02_diffuse.dds
+    normalPath: wetlands_02_normal.dds
+    materialPath: wetlands_02_properties.dds
+    maskPath: masks/wetlands_02_mask.png
+  - originalIndex: 51
+    displayName: wetlands_02_mud
+    id: wetlands_02_mud
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: wetlands_02_mud_diffuse.dds
+    normalPath: wetlands_02_mud_normal.dds
+    materialPath: wetlands_02_mud_properties.dds
+    maskPath: masks/wetlands_02_mud_mask.png
+  - originalIndex: 52
+    displayName: central_mountain
+    id: central_mountain
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_mountain_diffuse.dds
+    normalPath: gen_central_mountain_normal.dds
+    materialPath: gen_central_mountain_properties.dds
+    maskPath: masks/central_mountain_mask.png
+  - originalIndex: 53
+    displayName: central_lowlands_02
+    id: central_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_lowlands_02_diffuse.dds
+    normalPath: gen_central_lowlands_02_normal.dds
+    materialPath: gen_central_lowlands_02_properties.dds
+    maskPath: masks/central_lowlands_02_mask.png
+  - originalIndex: 54
+    displayName: central_lowlands_03
+    id: central_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_lowlands_03_diffuse.dds
+    normalPath: gen_central_lowlands_03_normal.dds
+    materialPath: gen_central_lowlands_03_properties.dds
+    maskPath: masks/central_lowlands_03_mask.png
+  - originalIndex: 55
+    displayName: gen_tropical_base
+    id: gen_tropical_base
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_tropical_base_diffuse.dds
+    normalPath: plains_01_normal.dds
+    materialPath: plains_01_properties.dds
+    maskPath: masks_gen/gen_tropical_base_mask.png
+  - originalIndex: 56
+    displayName: gen_tropical_lowlands
+    id: gen_tropical_lowlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_tropical_lowlands_diffuse.dds
+    normalPath: gen_tropical_lowlands_normal.dds
+    materialPath: gen_tropical_lowlands_properties.dds
+    maskPath: masks_gen/gen_tropical_lowlands_mask.png
+  - originalIndex: 57
+    displayName: gen_tropical_lowlands_02
+    id: gen_tropical_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_tropical_lowlands_02_diffuse.dds
+    normalPath: gen_tropical_lowlands_02_normal.dds
+    materialPath: gen_tropical_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_tropical_lowlands_02_mask.png
+  - originalIndex: 58
+    displayName: gen_tropical_lowlands_03
+    id: gen_tropical_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_tropical_lowlands_03_diffuse.dds
+    normalPath: gen_tropical_lowlands_03_normal.dds
+    materialPath: gen_tropical_lowlands_03_properties.dds
+    maskPath: masks_gen/gen_tropical_lowlands_03_mask.png
+  - originalIndex: 59
+    displayName: gen_tropical_hills
+    id: gen_tropical_hills
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_tropical_hills_diffuse.dds
+    normalPath: gen_central_hills_normal.dds
+    materialPath: gen_central_hills_properties.dds
+    maskPath: masks_gen/gen_tropical_hills_mask.png
+  - originalIndex: 60
+    displayName: gen_tropical_mountain
+    id: gen_tropical_mountain
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_tropical_mountain_diffuse.dds
+    normalPath: gen_tropical_mountain_normal.dds
+    materialPath: gen_tropical_mountain_properties.dds
+    maskPath: masks_gen/gen_tropical_mountain_mask.png
+  - originalIndex: 61
+    displayName: gen_tropical_mountain_transition
+    id: gen_tropical_mountain_transition
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_tropical_mountain_transition_diffuse.dds
+    normalPath: gen_tropical_mountain_transition_normal.dds
+    materialPath: gen_tropical_mountain_transition_properties.dds
+    maskPath: masks_gen/gen_tropical_mountain_transition_mask.png
+  - originalIndex: 62
+    displayName: gen_central_base
+    id: gen_central_base
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_base_diffuse.dds
+    normalPath: gen_central_base_normal.dds
+    materialPath: gen_central_base_properties.dds
+    maskPath: masks_gen/gen_central_base_mask.png
+  - originalIndex: 63
+    displayName: gen_central_lowlands
+    id: gen_central_lowlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_lowlands_diffuse.dds
+    normalPath: gen_central_lowlands_normal.dds
+    materialPath: gen_central_lowlands_properties.dds
+    maskPath: masks_gen/gen_central_lowlands_mask.png
+  - originalIndex: 64
+    displayName: gen_central_lowlands_02
+    id: gen_central_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_lowlands_02_diffuse.dds
+    normalPath: gen_central_lowlands_02_normal.dds
+    materialPath: gen_central_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_central_lowlands_02_mask.png
+  - originalIndex: 65
+    displayName: gen_central_lowlands_03
+    id: gen_central_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_lowlands_03_diffuse.dds
+    normalPath: gen_central_lowlands_03_normal.dds
+    materialPath: gen_central_lowlands_03_properties.dds
+    maskPath: masks_gen/gen_central_lowlands_03_mask.png
+  - originalIndex: 66
+    displayName: gen_central_hills
+    id: gen_central_hills
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_hills_diffuse.dds
+    normalPath: gen_central_hills_normal.dds
+    materialPath: gen_central_hills_properties.dds
+    maskPath: masks_gen/gen_central_hills_mask.png
+  - originalIndex: 67
+    displayName: gen_central_mountain
+    id: gen_central_mountain
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_mountain_diffuse.dds
+    normalPath: gen_central_mountain_normal.dds
+    materialPath: gen_central_mountain_properties.dds
+    maskPath: masks_gen/gen_central_mountain_mask.png
+  - originalIndex: 68
+    displayName: gen_central_mountain_transition
+    id: gen_central_mountain_transition
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_central_mountain_transition_diffuse.dds
+    normalPath: gen_central_mountain_transition_normal.dds
+    materialPath: gen_central_mountain_transition_properties.dds
+    maskPath: masks_gen/gen_central_mountain_transition_mask.png
+  - originalIndex: 69
+    displayName: gen_steppe_base
+    id: gen_steppe_base
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_steppe_base_diffuse.dds
+    normalPath: gen_steppe_base_normal.dds
+    materialPath: gen_steppe_base_properties.dds
+    maskPath: masks_gen/gen_steppe_base_mask.png
+  - originalIndex: 70
+    displayName: gen_steppe_lowlands
+    id: gen_steppe_lowlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_steppe_lowlands_diffuse.dds
+    normalPath: steppe_grass_normal.dds
+    materialPath: steppe_grass_properties.dds
+    maskPath: masks_gen/gen_steppe_lowlands_mask.png
+  - originalIndex: 71
+    displayName: gen_steppe_lowlands_02
+    id: gen_steppe_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_steppe_lowlands_02_diffuse.dds
+    normalPath: gen_central_lowlands_02_normal.dds
+    materialPath: gen_central_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_steppe_lowlands_02_mask.png
+  - originalIndex: 72
+    displayName: gen_steppe_lowlands_03
+    id: gen_steppe_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_steppe_lowlands_03_diffuse.dds
+    normalPath: gen_central_lowlands_02_normal.dds
+    materialPath: gen_central_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_steppe_lowlands_03_mask.png
+  - originalIndex: 73
+    displayName: gen_steppe_hills
+    id: gen_steppe_hills
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_steppe_hills_diffuse.dds
+    normalPath: gen_steppe_hills_normal.dds
+    materialPath: gen_steppe_hills_properties.dds
+    maskPath: masks_gen/gen_steppe_hills_mask.png
+  - originalIndex: 74
+    displayName: gen_steppe_mountain
+    id: gen_steppe_mountain
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: mountain_02_diffuse.dds
+    normalPath: mountain_03_normal.dds
+    materialPath: mountain_02_properties.dds
+    maskPath: masks_gen/gen_steppe_mountain_mask.png
+  - originalIndex: 75
+    displayName: gen_steppe_mountain_transition
+    id: gen_steppe_mountain_transition
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: steppe_rocks_diffuse.dds
+    normalPath: steppe_rocks_normal.dds
+    materialPath: steppe_rocks_properties.dds
+    maskPath: masks_gen/gen_steppe_mountain_transition_mask.png
+  - originalIndex: 76
+    displayName: gen_desert_base
+    id: gen_desert_base
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_desert_base_diffuse.dds
+    normalPath: gen_desert_base_normal.dds
+    materialPath: gen_desert_base_properties.dds
+    maskPath: masks_gen/gen_desert_base_mask.png
+  - originalIndex: 77
+    displayName: gen_desert_lowlands
+    id: gen_desert_lowlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_desert_lowlands_diffuse.dds
+    normalPath: gen_desert_lowlands_normal.dds
+    materialPath: gen_desert_lowlands_properties.dds
+    maskPath: masks_gen/gen_desert_lowlands_mask.png
+  - originalIndex: 78
+    displayName: gen_desert_lowlands_02
+    id: gen_desert_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_desert_lowlands_02_diffuse.dds
+    normalPath: gen_desert_lowlands_02_normal.dds
+    materialPath: gen_desert_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_desert_lowlands_02_mask.png
+  - originalIndex: 79
+    displayName: gen_desert_lowlands_03
+    id: gen_desert_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_desert_lowlands_03_diffuse.dds
+    normalPath: gen_desert_lowlands_03_normal.dds
+    materialPath: gen_desert_lowlands_03_properties.dds
+    maskPath: masks_gen/gen_desert_lowlands_03_mask.png
+  - originalIndex: 80
+    displayName: gen_desert_lowlands_04
+    id: gen_desert_lowlands_04
+    dynamicOverlay: 0
+    tileFactor: 200
+    diffusePath: gen_desert_lowlands_04_diffuse.dds
+    normalPath: gen_desert_lowlands_04_normal.dds
+    materialPath: gen_desert_lowlands_04_properties.dds
+    maskPath: masks_gen/gen_desert_lowlands_04_mask.png
+  - originalIndex: 81
+    displayName: gen_desert_hills
+    id: gen_desert_hills
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_desert_hills_diffuse.dds
+    normalPath: gen_desert_hills_normal.dds
+    materialPath: gen_desert_hills_properties.dds
+    maskPath: masks_gen/gen_desert_hills_mask.png
+  - originalIndex: 82
+    displayName: gen_desert_mountain
+    id: gen_desert_mountain
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_desert_mountain_diffuse.dds
+    normalPath: gen_desert_mountain_normal.dds
+    materialPath: gen_desert_mountain_properties.dds
+    maskPath: masks_gen/gen_desert_mountain_mask.png
+  - originalIndex: 83
+    displayName: gen_desert_mountain_transition
+    id: gen_desert_mountain_transition
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_desert_mountain_transition_diffuse.dds
+    normalPath: gen_desert_mountain_transition_normal.dds
+    materialPath: gen_desert_mountain_transition_properties.dds
+    maskPath: masks_gen/gen_desert_mountain_transition_mask.png
+  - originalIndex: 84
+    displayName: gen_drylands_base
+    id: gen_drylands_base
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_drylands_base_diffuse.dds
+    normalPath: gen_drylands_base_normal.dds
+    materialPath: gen_drylands_base_properties.dds
+    maskPath: masks_gen/gen_drylands_base_mask.png
+  - originalIndex: 85
+    displayName: gen_drylands_lowlands
+    id: gen_drylands_lowlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_drylands_lowlands_diffuse.dds
+    normalPath: gen_drylands_lowlands_normal.dds
+    materialPath: gen_drylands_lowlands_properties.dds
+    maskPath: masks_gen/gen_drylands_lowlands_mask.png
+  - originalIndex: 86
+    displayName: gen_drylands_lowlands_02
+    id: gen_drylands_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_drylands_lowlands_02_diffuse.dds
+    normalPath: gen_drylands_lowlands_02_normal.dds
+    materialPath: gen_drylands_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_drylands_lowlands_02_mask.png
+  - originalIndex: 87
+    displayName: gen_drylands_lowlands_03
+    id: gen_drylands_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_drylands_lowlands_03_diffuse.dds
+    normalPath: gen_drylands_lowlands_03_normal.dds
+    materialPath: gen_drylands_lowlands_03_properties.dds
+    maskPath: masks_gen/gen_drylands_lowlands_03_mask.png
+  - originalIndex: 88
+    displayName: gen_drylands_hills
+    id: gen_drylands_hills
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_drylands_hills_diffuse.dds
+    normalPath: gen_drylands_hills_normal.dds
+    materialPath: gen_drylands_hills_properties.dds
+    maskPath: masks_gen/gen_drylands_hills_mask.png
+  - originalIndex: 89
+    displayName: gen_drylands_mountain
+    id: gen_drylands_mountain
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_drylands_mountain_diffuse.dds
+    normalPath: gen_drylands_mountain_normal.dds
+    materialPath: gen_drylands_mountain_properties.dds
+    maskPath: masks_gen/gen_drylands_mountain_mask.png
+  - originalIndex: 90
+    displayName: gen_drylands_mountain_transition
+    id: gen_drylands_mountain_transition
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_drylands_mountain_transition_diffuse.dds
+    normalPath: gen_drylands_mountain_transition_normal.dds
+    materialPath: gen_drylands_mountain_transition_properties.dds
+    maskPath: masks_gen/gen_drylands_mountain_transition_mask.png
+  - originalIndex: 91
+    displayName: gen_northern_base
+    id: gen_northern_base
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_northern_base_diffuse.dds
+    normalPath: gen_northern_base_normal.dds
+    materialPath: gen_northern_base_properties.dds
+    maskPath: masks_gen/gen_northern_base_mask.png
+  - originalIndex: 92
+    displayName: gen_northern_lowlands
+    id: gen_northern_lowlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_northern_lowlands_diffuse.dds
+    normalPath: gen_northern_lowlands_normal.dds
+    materialPath: gen_northern_lowlands_properties.dds
+    maskPath: masks_gen/gen_northern_lowlands_mask.png
+  - originalIndex: 93
+    displayName: gen_northern_lowlands_02
+    id: gen_northern_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_northern_lowlands_02_diffuse.dds
+    normalPath: gen_northern_lowlands_02_normal.dds
+    materialPath: gen_northern_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_northern_lowlands_02_mask.png
+  - originalIndex: 94
+    displayName: gen_northern_lowlands_03
+    id: gen_northern_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_northern_lowlands_03_diffuse.dds
+    normalPath: gen_northern_lowlands_03_normal.dds
+    materialPath: gen_northern_lowlands_03_properties.dds
+    maskPath: masks_gen/gen_northern_lowlands_03_mask.png
+  - originalIndex: 95
+    displayName: gen_northern_hills
+    id: gen_northern_hills
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_northern_hills_diffuse.dds
+    normalPath: gen_northern_hills_normal.dds
+    materialPath: gen_northern_hills_properties.dds
+    maskPath: masks_gen/gen_northern_hills_mask.png
+  - originalIndex: 96
+    displayName: gen_northern_mountain
+    id: gen_northern_mountain
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_northern_mountain_diffuse.dds
+    normalPath: gen_northern_mountain_normal.dds
+    materialPath: gen_northern_mountain_properties.dds
+    maskPath: masks_gen/gen_northern_mountain_mask.png
+  - originalIndex: 97
+    displayName: gen_northern_mountain_transition
+    id: gen_northern_mountain_transition
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_northern_mountain_transition_diffuse.dds
+    normalPath: gen_northern_mountain_transition_normal.dds
+    materialPath: gen_northern_mountain_transition_properties.dds
+    maskPath: masks_gen/gen_northern_mountain_transition_mask.png
+  - originalIndex: 98
+    displayName: gen_mediterranean_base
+    id: gen_mediterranean_base
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_mediterranean_base_diffuse.dds
+    normalPath: gen_mediterranean_base_normal.dds
+    materialPath: gen_mediterranean_base_properties.dds
+    maskPath: masks_gen/gen_mediterranean_base_mask.png
+  - originalIndex: 99
+    displayName: gen_mediterranean_lowlands
+    id: gen_mediterranean_lowlands
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_mediterranean_lowlands_diffuse.dds
+    normalPath: gen_mediterranean_lowlands_normal.dds
+    materialPath: gen_mediterranean_lowlands_properties.dds
+    maskPath: masks_gen/gen_mediterranean_lowlands_mask.png
+  - originalIndex: 100
+    displayName: gen_mediterranean_lowlands_02
+    id: gen_mediterranean_lowlands_02
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_mediterranean_lowlands_02_diffuse.dds
+    normalPath: gen_mediterranean_lowlands_02_normal.dds
+    materialPath: gen_mediterranean_lowlands_02_properties.dds
+    maskPath: masks_gen/gen_mediterranean_lowlands_02_mask.png
+  - originalIndex: 101
+    displayName: gen_mediterranean_lowlands_03
+    id: gen_mediterranean_lowlands_03
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_mediterranean_lowlands_03_diffuse.dds
+    normalPath: gen_mediterranean_lowlands_03_normal.dds
+    materialPath: gen_mediterranean_lowlands_03_properties.dds
+    maskPath: masks_gen/gen_mediterranean_lowlands_03_mask.png
+  - originalIndex: 102
+    displayName: gen_mediterranean_hills
+    id: gen_mediterranean_hills
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_mediterranean_hills_diffuse.dds
+    normalPath: gen_mediterranean_hills_normal.dds
+    materialPath: gen_mediterranean_hills_properties.dds
+    maskPath: masks_gen/gen_mediterranean_hills_mask.png
+  - originalIndex: 103
+    displayName: gen_mediterranean_mountain
+    id: gen_mediterranean_mountain
+    dynamicOverlay: 0
+    tileFactor: 400
+    diffusePath: gen_mediterranean_mountain_diffuse.dds
+    normalPath: gen_mediterranean_mountain_normal.dds
+    materialPath: gen_mediterranean_mountain_properties.dds
+    maskPath: masks_gen/gen_mediterranean_mountain_mask.png
+  - originalIndex: 104
+    displayName: gen_mediterranean_mountain_transition
+    id: gen_mediterranean_mountain_transition
+    dynamicOverlay: 0
+    tileFactor: 337.5
+    diffusePath: gen_mediterranean_mountain_transition_diffuse.dds
+    normalPath: gen_mediterranean_mountain_transition_normal.dds
+    materialPath: gen_mediterranean_mountain_transition_properties.dds
+    maskPath: masks_gen/gen_mediterranean_mountain_transition_mask.png
+  diffuseHeightTextures: {fileID: 18700000, guid: 32a8ecc2e6ec13b4cbb2f42917848419,
+    type: 2}
+  normalTextures: {fileID: 18700000, guid: 8ab0d00b220b98045b2d997e3ecdaa2d, type: 2}
+  materialTextures: {fileID: 18700000, guid: af0207bf6a1827741b735f70a607ada4, type: 2}
+  detailIndexTexture: {fileID: 2800000, guid: 5e61735f283a3cd40b26bffa3d292be6, type: 2}
+  detailMaskTexture: {fileID: 2800000, guid: f91bedbb3dbaf55488b8f28f542a8ce1, type: 2}
+  colorMapTexture: {fileID: 2800000, guid: da969b59562a40c4ba2fbc48b8a41fcf, type: 2}
+  terrainSurfaceMaterial: {fileID: 2100000, guid: 27b76586d6cdee848bc8e44d0af72e2e,
+    type: 2}
+  detailBlendRange: 0.25
+  defaultTileFactor: 337.5
+  detailTileOffset: {x: 0, y: -512}
+  materialIntensityBias: 0
+  worldExtents: {x: 9215, y: 4607}

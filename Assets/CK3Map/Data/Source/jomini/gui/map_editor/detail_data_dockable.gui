@@ -1,0 +1,93 @@
+template detail_data_dynamic_terrain_switch {
+	raw_tooltip = "Toggle dynamic terrain materials feature. Requires less than 4 static materials for dynamic terrain feature to enable. Feature is going to be enabled/disabled only for the duration of the map editor session. It is game that decides if the feature is truely on or off."
+	checked = "[MapEditor.IsDynamicTerrainMaterialSupported]"
+	onclick = "[MapEditor.SetDynamicTerrainMaterialSupported( Not( MapEditor.IsDynamicTerrainMaterialSupported ) )]"
+	enabled = "[MapEditor.IsDynamicTerrainMaterialFeatureTogglable]"
+	tooltipwidget = { using = dockable_tooltip }
+}
+
+widget = {
+	name = "detail_data_dockable"
+
+	layoutpolicy_vertical = expanding
+	layoutpolicy_horizontal = preferred
+
+	hbox = {
+
+		spacing = 8
+		margin = { 8 0 }
+
+		tooloptions_textbox = {
+			raw_text = "Errors: [DetailData.ErrorsCount]"
+		}
+
+		tooloptions_divider = {}
+
+		tooloptions_textbox = {
+			raw_text = "Material limit:"
+		}
+
+		hbox = {
+			spacing = 4
+			datamodel = "[DetailData.SupportedMaterialsLimits]"
+			enabled = "[Not(DetailData.IsUpdating)]"
+			item = {
+				tools_checkbutton = {
+					text = "[int32.GetInt]"
+					raw_tooltip = "Limit number of materials per detail pixel to [int32.GetInt]."
+					checked = "[EqualTo_int32(DetailData.MaterialsLimit, int32.GetInt)]"
+					onclick = "[DetailData.SetMaterialsLimit(int32.GetInt)]"
+					enabled = "[Not(And(EqualTo_int32(int32.GetInt, '(int32)4'), MapEditor.IsDynamicTerrainMaterialSupported))]"
+				}
+			}
+		}
+
+		hbox = {
+			spacing = 4
+
+			tooltipwidget = {
+				using = dockable_tooltip
+			}
+
+			raw_tooltip = "Controls how much high intensity materials are preferred when detail data textures"
+		
+			tooloptions_textbox = {
+				raw_text = "Intensity bias:"
+			}
+
+			tooloptions_textinput = {
+				size = { 32 32 }
+				text = "[DetailData.MaterialIntensityBias]"
+				enabled = "[Not(DetailData.IsUpdating)]"
+				oneditingfinished = "[DetailData.SetMaterialIntensityBiasStr]"
+			}
+		}
+
+		tooloptions_button = {
+			raw_tooltip = "Repack detail data textures"
+			onclick = "[DetailData.Repack]"
+			enabled = "[Not(DetailData.IsUpdating)]"
+			size = { 64 32 }
+			raw_text = "Repack"
+			visible = "[Not(DetailData.IsUpdating)]"
+		}
+
+		widget = {
+			size = { 64 32 }
+			visible = "[DetailData.IsUpdating]"
+			tooloptions_progress_spinner = {
+				parentanchor = center
+			}
+		}
+
+		tools_checkbutton = {
+			toolbox_icon = {
+				texture = "gfx/editor_terrain/dynamic_switch.png"
+				size = { 32 32 }
+			}
+			using = detail_data_dynamic_terrain_switch
+		}
+
+		dummy_fill_up = {}
+	}
+}

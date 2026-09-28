@@ -1,0 +1,3 @@
+﻿NJominiMultiplayer = {
+	OTHER_PLAYER_UNPAUSE_TIMEOUT = 30 #after this amount of time anyone can unpause in MP game
+}

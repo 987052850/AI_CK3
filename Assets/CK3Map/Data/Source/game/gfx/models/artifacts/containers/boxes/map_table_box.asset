@@ -1,0 +1,42 @@
+# For use on the map table
+pdxmesh = {
+	name = "ep1_mediterranean_box_medium_fancy_02_a_mesh_for_table"
+	file = "ep1_mediterranean_box_medium_fancy_02_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 22.0 }
+		lod = { index = 2 percent = 13.0 }
+	}
+
+	cull_distance = 40000
+
+	meshsettings = {
+		name = "ep1_mediterranean_box_medium_fancy_02_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mediterranean_box_medium_fancy_02_a_diffuse.dds"
+		texture_normal = "ep1_mediterranean_box_medium_fancy_02_a_normal.dds"
+		texture_specular = "ep1_mediterranean_box_medium_fancy_02_a_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mediterranean_box_medium_fancy_02_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mediterranean_box_medium_fancy_02_a_diffuse.dds"
+		texture_normal = "ep1_mediterranean_box_medium_fancy_02_a_normal.dds"
+		texture_specular = "ep1_mediterranean_box_medium_fancy_02_a_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mediterranean_box_medium_fancy_02_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mediterranean_box_medium_fancy_02_a_diffuse.dds"
+		texture_normal = "ep1_mediterranean_box_medium_fancy_02_a_normal.dds"
+		texture_specular = "ep1_mediterranean_box_medium_fancy_02_a_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}

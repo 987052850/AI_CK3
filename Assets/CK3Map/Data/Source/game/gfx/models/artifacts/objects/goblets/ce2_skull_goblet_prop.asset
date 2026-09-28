@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "ce2_skull_goblet_prop_mesh"
+	file = "ce2_skull_goblet_prop.mesh"
+	scale = 0.8
+	meshsettings = {
+		name = "skull_gobletShape"
+		index = 0
+		texture_diffuse = "ep1_trophy_skull_goblet_01_diffuse.dds"
+		texture_normal = "ep1_trophy_skull_goblet_01_normal.dds"
+		texture_specular = "ep1_trophy_skull_goblet_01_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "ce2_skull_goblet_prop_entity"
+	pdxmesh = "ce2_skull_goblet_prop_mesh"
+}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8d3fe4804205e4097e499aac65ff09, type: 3}
+  m_Name: "CK3\u539F\u7248\u9AD8\u5EA6\u9875\u8868"
+  m_EditorClassIdentifier: 
+  packedHeightTexture: {fileID: 2800000, guid: a969cacbfe983104793b7c33ee3d68e4, type: 2}
+  indirectionTexture: {fileID: 2800000, guid: 85fb8460708466f49b4dfd0be7da7a0a, type: 2}
+  originalHeightmapSize: {x: 18432, y: 9216}
+  indirectionSize: {x: 288, y: 144}
+  packedHeightmapSize: {x: 3185, y: 4061}
+  baseTileSize: 65
+  maxCompressionLevel: 4
+  levelOffsets:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1397}
+  - {x: 0, y: 3129}
+  - {x: 0, y: 3690}
+  - {x: 0, y: 3861}
+  tileToHeightmapScaleAndOffset:
+  - {x: 0.020408163, y: 0.01600591, z: 0, w: 0}
+  - {x: 0.010361068, y: 0.008126077, z: 0, w: 0.34400395}
+  - {x: 0.0053375196, y: 0.004186161, z: 0, w: 0.7704999}
+  - {x: 0.0028257456, y: 0.002216203, z: 0, w: 0.9086432}
+  - {x: 0.0015698588, y: 0.0012312238, z: 0, w: 0.95075107}
+  worldSpaceToLookup: {x: 0.000108506945, y: 0.00021701389}
+  originalHeightmapToWorldSpace: {x: 0.5, y: 0.5}
+  worldExtents: {x: 9215, y: 4607}
+  heightScale: 50

@@ -1,0 +1,15 @@
+/Assets/CK3Map/Data/Generated/Political/CK3省份编号间接寻址_RG16.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Political/CK3省份颜色编号_RGB24.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Rivers/CK3原版河面网格.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Terrain/CK3地表_RRxG法线_DXT5.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Terrain/CK3地表_四层材质权重_BGRA32.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Terrain/CK3地表_四层材质索引_BGRA32.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Terrain/CK3地表_宏观颜色_DXT5.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Terrain/CK3地表_材质属性_DXT5.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Terrain/CK3地表_漫反射高度_DXT5.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Generated/Terrain/CK3高度_压缩页_R16.asset filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Source/game/fonts/LxgwZhenKai/LXGWZhenKaiGB_alphabet_removed.otf filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Source/game/gfx/map/terrain/colormap.dds filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Source/game/gfx/map/terrain/detail_index.tga filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Source/game/gfx/map/terrain/detail_intensity.tga filter=lfs diff=lfs merge=lfs -text
+/Assets/CK3Map/Data/Source/game/map_data/heightmap.png filter=lfs diff=lfs merge=lfs -text

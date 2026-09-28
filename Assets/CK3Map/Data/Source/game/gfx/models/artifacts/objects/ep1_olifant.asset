@@ -1,0 +1,45 @@
+pdxmesh = {
+	name = "ep1_olifant_mesh"
+	file = "ep1_olifant.mesh"
+	scale = 2
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 10.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_olifant_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_olifant_diffuse.dds"
+		texture_normal = "ep1_olifant_normal.dds"
+		texture_specular = "ep1_olifant_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_olifant_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_olifant_diffuse.dds"
+		texture_normal = "ep1_olifant_normal.dds"
+		texture_specular = "ep1_olifant_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_olifant_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_olifant_diffuse.dds"
+		texture_normal = "ep1_olifant_normal.dds"
+		texture_specular = "ep1_olifant_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "ep1_olifant_entity"
+	pdxmesh = "ep1_olifant_mesh"
+}

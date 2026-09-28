@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tabletop_west_basic_tablecloth_0
+  m_Shader: {fileID: 4800000, guid: 9d7e762179d04574e8c6a95b8c795af7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 08cd0768407cd9e478c2829b3712216d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CK3TabletopEnvironmentMap:
+        m_Texture: {fileID: 8900000, guid: c5966032611ba634082acea585a7bf31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 06023acbd0f99a9468f87fd263980929, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PropertiesMap:
+        m_Texture: {fileID: 2800000, guid: 3cef7a5290e856642bdcf60a48468715, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _CK3TabletopIblScale: 1
+    - _CK3TabletopSpecularFactor: 1
+    - _CK3TabletopSunIntensity: 5
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _GlobalOpacity: 1
+    - _Smoothness: 0.25
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CK3TabletopSunColor: {r: 1, g: 0.922, b: 0.85, a: 1}
+  m_BuildTextureStacks: []

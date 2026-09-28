@@ -1,0 +1,228 @@
+types EyeDropper
+{
+	# Helper for showing nice looking lock icon.
+	# (reusing checkbutton just to get the selected frame)
+	type eye_dropper_material_lock_icon = tools_checkbutton {
+		visible = "[MaterialEntry.GetMaterial.IsLocked]"
+		alpha = 0.25
+		size = { 32 32 }
+		parentanchor = center
+		blockoverride "button" {
+			texture = "gfx/tools/lock_checkbox.dds"
+			framesize = { 64 64 }
+			checked = yes
+		}
+	}
+
+	# Helpers for showing the packed sample name
+	type eye_dropper_packed_sample_name = tooloptions_textbox {
+		layoutpolicy_horizontal = preferred
+		layoutpolicy_vertical = preferred
+		size = { 0 0 }
+		max_width = 85
+		multiline = yes
+		align = center
+		text = "[MaterialEntry.GetMaterial.GetName]"
+		enabled = "[Not(MaterialEntry.GetMaterial.IsLocked)]"
+	}
+	type eye_dropper_material_name_in_tooltip = tooloptions_textbox {
+		size = { 150 20 }
+		autoresize = yes
+		text = "[MaterialEntry.GetMaterial.GetName]"
+		enabled = "[Not(MaterialEntry.GetMaterial.IsLocked)]"
+	}
+
+	# Entry in the tooltip showing details about material under mouse pointer.
+	type sample_info = flowcontainer {
+		direction = vertical
+		spacing = 4
+		margin = { 6 6 }
+		
+		background = {
+			texture = "gfx/editor_gui/editor_layout_window.png"
+			spriteType = CorneredStretched
+			spriteborder = { 5 5 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			framesize = { 16 16 }
+		}
+		
+		tooloptions_textbox = {
+			raw_text = "[MaterialsSample.GetX] x [MaterialsSample.GetY]"
+		}
+		
+		dynamicgridbox = {
+			name = "samples"
+			datamodel = "[MaterialsSample.Entries]"
+			
+			item = {
+				flowcontainer = {
+					visible = "[MaterialEntry.IsVisible]"
+					spacing = 2
+					margin = { 2 4 }
+					icon = {
+						size = { 28 28 }
+						texture = "[MaterialEntry.GetMaterial.GetDiffuseTexture]"
+						shaderfile = "gfx/FX/pdxgui_noblend.shader"
+						eye_dropper_material_lock_icon = {}
+					}
+					widget = {
+						size = { 220 0 }
+						vbox = {
+							spacing = 4
+							eye_dropper_material_name_in_tooltip = {
+								visible = "[Not(MaterialEntry.GetMaterial.IsSelected)]"
+							}
+							eye_dropper_material_name_in_tooltip = {
+								visible = "[MaterialEntry.GetMaterial.IsSelected]"
+								fontcolor = { 1 1 0 0.8 }
+								fontweight = extrabold
+							}
+							hbox = {
+								spacing = 4
+								size = { 0 0 }
+								layoutpolicy_vertical = preferred
+								layoutpolicy_horizontal = preferred
+								dockable_progressbar = { 
+									size = { 170 10 }
+									layoutpolicy_horizontal = fixed
+									layoutpolicy_vertical = fixed
+									min = 0
+									max = 100.0
+									value = "[MaterialEntry.GetValue]"
+								}
+
+								tooloptions_textbox = {
+									autoresize = yes
+									raw_text = "[MaterialEntry.GetValue]%"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	type packed_samples = vbox {
+		margin = { 4 2 }
+		
+		tooloptions_textbox = {
+			block "title" { }
+		}
+		hbox = {
+			size = { 0 0 }
+			margin = { 4 2 }
+
+			fixedgridbox = {
+				addcolumn = 98
+				addrow = 140
+				flipdirection = yes
+				block "datamodel" { }
+				item = {
+					widget = {
+						enabled = "[GreaterThan_int32( MaterialEntry.GetRawValue, '(int32)0' )]"
+						datacontext = "[EyeDropperPackedSample.GetSample]"
+						size = { 90 130 }
+						background = {
+							texture = "gfx/editor_gui/editor_layout_window.png"
+							spriteType = CorneredStretched
+							spriteborder = { 5 5 }
+							shaderfile = "gfx/FX/pdxgui_default.shader"
+							framesize = { 16 16 }
+						}
+						vbox = {
+							icon = {
+								size = { 90 90 }
+								toolbox_icon = {
+									size = { 86 86 }
+									texture = "[MaterialEntry.GetMaterial.GetDiffuseTexture]"
+									shaderfile = "gfx/FX/pdxgui_noblend.shader"
+								}
+								eye_dropper_material_lock_icon = {}
+								tooloptions_textbox = {
+									size = { 0 0 }
+									parentanchor = right|bottom
+									margin = { 4 4 }
+									align = right|bottom
+									text = "[MaterialEntry.GetRawValue]"
+								}
+							}
+							dockable_progressbar = {
+								size = { 86 10 }
+								layoutpolicy_horizontal = expanding
+								min = 0
+								max = 100.0
+								value = "[MaterialEntry.GetValue]"
+							}
+							eye_dropper_packed_sample_name = {
+								visible = "[Not(MaterialEntry.GetMaterial.IsSelected)]"
+							}
+							eye_dropper_packed_sample_name = {
+								visible = "[MaterialEntry.GetMaterial.IsSelected]"
+								fontcolor = { 1 1 0 0.8 }
+								fontweight = extrabold
+							}
+						}
+					}
+				}
+			}
+			dummy_fill_up = {}
+		}
+	}
+
+	type eyedropper_checkbutton = toolbox_checkbutton {
+		block "checkbutton" {}
+		raw_tooltip = "Inspect terrain materials under mouse pointer."
+		block "behaviour" {
+			checked = "[EyeDropper.IsEnabled]"
+			onclick = "[EyeDropper.SetEnabled(Not(EyeDropper.IsEnabled))]"
+		}
+		toolbox_icon = {
+			texture = "gfx/tools/material/eye_dropper.png"
+		}
+	}
+
+	type eyedropper_sample = vbox {
+		size = { 0 0 }
+		spacing = 4
+		margin = { 4 8 }
+		parentanchor = right|top
+
+		background = {
+			texture = "gfx/editor_gui/editor_layout_window.png"
+			spriteType = CorneredStretched
+			spriteborder = { 5 5 }
+			shaderfile = "gfx/FX/pdxgui_default.shader"
+			framesize = { 16 16 }
+		}
+		packed_samples = {
+			blockoverride "title" { raw_text = "Packed values:" }
+			blockoverride "datamodel" { datamodel = [EyeDropper.PackedSamples] }
+		}
+		packed_samples = {
+			visible = "[MapEditor.IsDynamicTerrainMaterialSupported]"
+			blockoverride "title" { raw_text = "Packed dynamic:" }
+			blockoverride "datamodel" { datamodel = [EyeDropper.PackedSamplesDynamic] }
+		}
+	}
+
+	type eyedropper_viewport_tooltip = widget {
+		datacontext = "[EyeDropper.GetHoverSample]"
+		size = { 100% 100% }
+		tooltip_visible = "[EyeDropper.IsEnabled]"
+		tooltip_type = mouse
+		tooltip_widgetanchor = bottom|left
+		tooltipwidget = {
+			sample_info = {}
+		}
+		widget = {
+			alpha = 0.95
+			visible = "[EyeDropper.IsEnabled]"
+			size = { 0 0 }
+			parentanchor = right|top
+			eyedropper_sample = {}
+		}
+ 	}
+}
+
+

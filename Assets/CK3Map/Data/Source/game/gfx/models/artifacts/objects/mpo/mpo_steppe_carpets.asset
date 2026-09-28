@@ -1,0 +1,122 @@
+# Grandeur 1
+pdxmesh = {
+	name = "mpo_steppe_carpets_g1_mesh"
+	file = "mpo_steppe_carpets_g1.mesh"
+
+	meshsettings = {
+		name = "mpo_steppe_carpets_g1Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_carpet_01_g1_01_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_carpets_g1Shape"
+		index = 1
+		texture_diffuse = "mpo_steppe_carpet_01_g1_02_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_carpets_g1Shape"
+		index = 2
+		texture_diffuse = "mpo_steppe_carpet_01_g1_03_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "mpo_steppe_carpets_g1_entity"
+	pdxmesh = "mpo_steppe_carpets_g1_mesh"
+}
+
+# Grandeur 2
+pdxmesh = {
+	name = "mpo_steppe_carpets_g2_mesh"
+	file = "mpo_steppe_carpets_g2.mesh"
+
+	meshsettings = {
+		name = "mpo_steppe_carpets_g2Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_carpet_01_g2_01_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_carpets_g2Shape"
+		index = 1
+		texture_diffuse = "mpo_steppe_carpet_01_g2_02_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_carpets_g2Shape"
+		index = 2
+		texture_diffuse = "mpo_steppe_carpet_01_g2_03_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "mpo_steppe_carpets_g2_entity"
+	pdxmesh = "mpo_steppe_carpets_g2_mesh"
+}
+
+# Tapestries
+pdxmesh = {
+	name = "mpo_steppe_tapestries_01_mesh"
+	file = "mpo_steppe_tapestries_01.mesh"
+
+	meshsettings = {
+		name = "mpo_steppe_tapestries_01Shape"
+		index = 0
+		texture_diffuse = "mpo_steppe_carpet_01_g1_01_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_tapestries_01Shape"
+		index = 1
+		texture_diffuse = "mpo_steppe_carpet_01_g1_02_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "mpo_steppe_tapestries_01Shape"
+		index = 2
+		texture_diffuse = "mpo_steppe_carpet_01_g1_03_diffuse.dds"
+		texture_normal = "mpo_steppe_carpet_01_normal.dds"
+		texture_specular = "mpo_steppe_carpet_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "mpo_steppe_tapestries_01_entity"
+	pdxmesh = "mpo_steppe_tapestries_01_mesh"
+}

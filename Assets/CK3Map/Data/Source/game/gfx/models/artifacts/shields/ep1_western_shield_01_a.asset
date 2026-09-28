@@ -1,0 +1,50 @@
+pdxmesh = {
+	name = "ep1_western_shield_01_a_mesh"
+	file = "ep1_western_shield_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 15.0 }
+		lod = { index = 2 percent = 7.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_shield_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_shield_01_a_diffuse.dds"
+		texture_normal = "ep1_western_shield_01_a_normal.dds"
+		texture_specular = "ep1_western_shield_01_a_properties.dds"
+		shader = "court_usercolor_coa"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_shield_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_shield_01_a_diffuse.dds"
+		texture_normal = "ep1_western_shield_01_a_normal.dds"
+		texture_specular = "ep1_western_shield_01_a_properties.dds"
+		shader = "court_usercolor_coa"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_shield_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_shield_01_a_diffuse.dds"
+		texture_normal = "ep1_western_shield_01_a_normal.dds"
+		texture_specular = "ep1_western_shield_01_a_properties.dds"
+		shader = "court_usercolor_coa"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "ep1_western_shield_01_a_entity"
+	pdxmesh = "ep1_western_shield_01_a_mesh"
+
+	game_data = {
+		court_entity_user_data = {
+			coat_of_arms = yes
+		}
+	}
+}

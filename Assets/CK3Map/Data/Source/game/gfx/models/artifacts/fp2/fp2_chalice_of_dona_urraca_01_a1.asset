@@ -1,0 +1,46 @@
+pdxmesh = {
+	name = "fp2_chalice_of_dona_urraca_01_a1_mesh"
+	file = "fp2_chalice_of_dona_urraca_01_a1.mesh"
+
+	scale = 6.3 
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 2.0 }
+	}
+
+	meshsettings = {
+		name = "polySurface82Shape"
+		index = 0
+		texture_diffuse = "chalice_diffuse.dds"
+		texture_normal = "chalice_normal.dds"
+		texture_specular = "chalice_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface83Shape"
+		index = 0
+		texture_diffuse = "chalice_diffuse.dds"
+		texture_normal = "chalice_normal.dds"
+		texture_specular = "chalice_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "polySurface85Shape"
+		index = 0
+		texture_diffuse = "chalice_diffuse.dds"
+		texture_normal = "chalice_normal.dds"
+		texture_specular = "chalice_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "fp2_chalice_of_dona_urraca_01_a1_entity"
+	pdxmesh = "fp2_chalice_of_dona_urraca_01_a1_mesh"
+}

@@ -1,0 +1,2872 @@
+
+
+
+
+#################
+#	Meshes	#
+#################
+
+
+##Example##  Add these after exporting from Maya
+
+#pdxmesh = {  #PLACEHOLDER
+#	name = "test_cube_mesh"
+#	file = "test_cube.mesh"
+#
+#	meshsettings = {
+#		name = "pCubeShape1"
+#		index = 0
+#		texture_diffuse = "test_diffuse.dds"
+#		texture_normal = "nonormal.dds"
+#		texture_specular = "nospec.dds"
+#		shader = "court"
+#		shader_file = "gfx/FX/court_scene.shader"
+#	}
+#}
+
+
+##### Axes -----------------------------------------
+
+
+pdxmesh = {
+	name = "ep1_indian_axe_01_a_mesh"
+	file = "ep1_indian_axe_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_indian_axe_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_axe_01_a_normal.dds"
+		texture_specular = "ep1_indian_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_axe_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_axe_01_a_normal.dds"
+		texture_specular = "ep1_indian_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_axe_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_axe_01_a_normal.dds"
+		texture_specular = "ep1_indian_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_steppe_axe_01_a_mesh"
+	file = "ep1_steppe_axe_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_axe_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_axe_01_a_normal.dds"
+		texture_specular = "ep1_steppe_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_axe_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_axe_01_a_normal.dds"
+		texture_specular = "ep1_steppe_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_axe_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_axe_01_a_normal.dds"
+		texture_specular = "ep1_steppe_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_mena_axe_01_a_mesh"
+	file = "ep1_mena_axe_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_mena_axe_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_axe_01_a_normal.dds"
+		texture_specular = "ep1_mena_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_axe_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_axe_01_a_normal.dds"
+		texture_specular = "ep1_mena_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_axe_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_axe_01_a_normal.dds"
+		texture_specular = "ep1_mena_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_northern_axe_01_a_mesh"
+	file = "ep1_northern_axe_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_northern_axe_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_northern_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_northern_axe_01_a_normal.dds"
+		texture_specular = "ep1_northern_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_northern_axe_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_northern_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_northern_axe_01_a_normal.dds"
+		texture_specular = "ep1_northern_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_northern_axe_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_northern_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_northern_axe_01_a_normal.dds"
+		texture_specular = "ep1_northern_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_axe_01_a_mesh"
+	file = "ep1_western_axe_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_axe_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_western_axe_01_a_normal.dds"
+		texture_specular = "ep1_western_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_axe_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_western_axe_01_a_normal.dds"
+		texture_specular = "ep1_western_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_axe_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_western_axe_01_a_normal.dds"
+		texture_specular = "ep1_western_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_african_axe_01_a_mesh"
+	file = "ep1_african_axe_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_axe_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_african_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_african_axe_01_a_normal.dds"
+		texture_specular = "ep1_african_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_axe_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_african_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_african_axe_01_a_normal.dds"
+		texture_specular = "ep1_african_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_axe_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_african_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_african_axe_01_a_normal.dds"
+		texture_specular = "ep1_african_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_mediterranean_axe_01_a_mesh"
+	file = "ep1_mediterranean_axe_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mediterranean_axe_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mediterranean_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_mediterranean_axe_01_a_normal.dds"
+		texture_specular = "ep1_mediterranean_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mediterranean_axe_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mediterranean_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_mediterranean_axe_01_a_normal.dds"
+		texture_specular = "ep1_mediterranean_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mediterranean_axe_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mediterranean_axe_01_a_diffuse.dds"
+		texture_normal = "ep1_mediterranean_axe_01_a_normal.dds"
+		texture_specular = "ep1_mediterranean_axe_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+
+##### Daggers -----------------------------------------
+
+pdxmesh = {
+	name = "ep1_indian_dagger_01_a_mesh"
+	file = "ep1_indian_dagger_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_indian_dagger_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_dagger_01_a_normal.dds"
+		texture_specular = "ep1_indian_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_dagger_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_dagger_01_a_normal.dds"
+		texture_specular = "ep1_indian_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_dagger_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_dagger_01_a_normal.dds"
+		texture_specular = "ep1_indian_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_mena_dagger_01_a_mesh"
+	file = "ep1_mena_dagger_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_mena_dagger_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_dagger_01_a_normal.dds"
+		texture_specular = "ep1_mena_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_dagger_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_dagger_01_a_normal.dds"
+		texture_specular = "ep1_mena_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_dagger_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_dagger_01_a_normal.dds"
+		texture_specular = "ep1_mena_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_dagger_01_a_mesh"
+	file = "ep1_western_dagger_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_dagger_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_western_dagger_01_a_normal.dds"
+		texture_specular = "ep1_western_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_dagger_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_western_dagger_01_a_normal.dds"
+		texture_specular = "ep1_western_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_dagger_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_dagger_01_a_diffuse.dds"
+		texture_normal = "ep1_western_dagger_01_a_normal.dds"
+		texture_specular = "ep1_western_dagger_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+##### Hammers -----------------------------------------
+
+pdxmesh = {
+	name = "ep1_mena_hammer_01_a_mesh"
+	file = "ep1_mena_hammer_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 6.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_mena_hammer_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_hammer_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_hammer_01_a_normal.dds"
+		texture_specular = "ep1_mena_hammer_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_hammer_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_hammer_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_hammer_01_a_normal.dds"
+		texture_specular = "ep1_mena_hammer_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_hammer_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_hammer_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_hammer_01_a_normal.dds"
+		texture_specular = "ep1_mena_hammer_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_hammer_01_a_mesh"
+	file = "ep1_western_hammer_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_hammer_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_hammer_01_a_diffuse.dds"
+		texture_normal = "ep1_western_hammer_01_a_normal.dds"
+		texture_specular = "ep1_western_hammer_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_hammer_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_hammer_01_a_diffuse.dds"
+		texture_normal = "ep1_western_hammer_01_a_normal.dds"
+		texture_specular = "ep1_western_hammer_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_hammer_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_hammer_01_a_diffuse.dds"
+		texture_normal = "ep1_western_hammer_01_a_normal.dds"
+		texture_specular = "ep1_western_hammer_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+##### Maces -----------------------------------------
+
+pdxmesh = {
+	name = "ep1_african_mace_01_a_mesh"
+	file = "ep1_african_mace_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_african_mace_01_a_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_african_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_african_mace_01_a_normal.dds"
+		texture_specular = "ep1_african_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_mace_01_a_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_african_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_african_mace_01_a_normal.dds"
+		texture_specular = "ep1_african_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_mace_01_a_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_african_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_african_mace_01_a_normal.dds"
+		texture_specular = "ep1_african_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+pdxmesh = {
+	name = "ep1_mena_mace_01_a_mesh"
+	file = "ep1_mena_mace_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_mena_mace_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_mace_01_a_normal.dds"
+		texture_specular = "ep1_mena_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_mace_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_mace_01_a_normal.dds"
+		texture_specular = "ep1_mena_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_mace_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_mace_01_a_normal.dds"
+		texture_specular = "ep1_mena_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_indian_mace_01_a_mesh"
+	file = "ep1_indian_mace_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_indian_mace_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_mace_01_a_normal.dds"
+		texture_specular = "ep1_indian_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_mace_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_mace_01_a_normal.dds"
+		texture_specular = "ep1_indian_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_mace_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_mace_01_a_normal.dds"
+		texture_specular = "ep1_indian_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+pdxmesh = {
+	name = "ep1_western_mace_01_a_mesh"
+	file = "ep1_western_mace_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_mace_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_western_mace_01_a_normal.dds"
+		texture_specular = "ep1_western_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_mace_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_western_mace_01_a_normal.dds"
+		texture_specular = "ep1_western_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_mace_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_western_mace_01_a_normal.dds"
+		texture_specular = "ep1_western_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_byzantine_mace_01_a_mesh"
+	file = "ep1_byzantine_mace_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_byzantine_mace_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_byzantine_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_byzantine_mace_01_a_normal.dds"
+		texture_specular = "ep1_byzantine_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_byzantine_mace_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_byzantine_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_byzantine_mace_01_a_normal.dds"
+		texture_specular = "ep1_byzantine_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_byzantine_mace_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_byzantine_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_byzantine_mace_01_a_normal.dds"
+		texture_specular = "ep1_byzantine_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_steppe_mace_01_a_mesh"
+	file = "ep1_steppe_mace_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_mace_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_mace_01_a_normal.dds"
+		texture_specular = "ep1_steppe_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_mace_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_mace_01_a_normal.dds"
+		texture_specular = "ep1_steppe_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_mace_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_mace_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_mace_01_a_normal.dds"
+		texture_specular = "ep1_steppe_mace_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_mace_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+##### Spears -----------------------------------------
+
+
+pdxmesh = {
+	name = "ep1_african_spear_01_a_mesh"
+	file = "ep1_african_spear_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_african_spear_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_african_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_african_spear_01_a_normal.dds"
+		texture_specular = "ep1_african_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_spear_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_african_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_african_spear_01_a_normal.dds"
+		texture_specular = "ep1_african_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_spear_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_african_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_african_spear_01_a_normal.dds"
+		texture_specular = "ep1_african_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_mena_spear_01_a_mesh"
+	file = "ep1_mena_spear_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_mena_spear_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_spear_01_a_normal.dds"
+		texture_specular = "ep1_mena_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_spear_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_spear_01_a_normal.dds"
+		texture_specular = "ep1_mena_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_spear_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_spear_01_a_normal.dds"
+		texture_specular = "ep1_mena_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+pdxmesh = {
+	name = "ep1_indian_spear_01_a_mesh"
+	file = "ep1_indian_spear_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 12.0 }
+		lod = { index = 2 percent = 8.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_indian_spear_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_spear_01_a_normal.dds"
+		texture_specular = "ep1_indian_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_spear_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_spear_01_a_normal.dds"
+		texture_specular = "ep1_indian_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_spear_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_spear_01_a_normal.dds"
+		texture_specular = "ep1_indian_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+pdxmesh = {
+	name = "ep1_western_spear_01_a_mesh"
+	file = "ep1_western_spear_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_spear_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_western_spear_01_a_normal.dds"
+		texture_specular = "ep1_western_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_spear_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_western_spear_01_a_normal.dds"
+		texture_specular = "ep1_western_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_spear_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_spear_01_a_diffuse.dds"
+		texture_normal = "ep1_western_spear_01_a_normal.dds"
+		texture_specular = "ep1_western_spear_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+
+##### Swords -----------------------------------------
+
+pdxmesh = {
+	name = "ep1_byzantine_sword_01_a_mesh"
+	file = "ep1_byzantine_sword_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_byzantine_sword_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_byzantine_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_byzantine_sword_01_a_normal.dds"
+		texture_specular = "ep1_byzantine_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_byzantine_sword_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_byzantine_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_byzantine_sword_01_a_normal.dds"
+		texture_specular = "ep1_byzantine_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_byzantine_sword_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_byzantine_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_byzantine_sword_01_a_normal.dds"
+		texture_specular = "ep1_byzantine_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_african_sword_01_a_mesh"
+	file = "ep1_african_sword_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 10.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_african_sword_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_african_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_african_sword_01_a_normal.dds"
+		texture_specular = "ep1_african_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_sword_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_african_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_african_sword_01_a_normal.dds"
+		texture_specular = "ep1_african_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_african_sword_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_african_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_african_sword_01_a_normal.dds"
+		texture_specular = "ep1_african_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_mena_sword_01_a_mesh"
+	file = "ep1_mena_sword_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_mena_sword_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_sword_01_a_normal.dds"
+		texture_specular = "ep1_mena_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_sword_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_sword_01_a_normal.dds"
+		texture_specular = "ep1_mena_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_mena_sword_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_mena_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_mena_sword_01_a_normal.dds"
+		texture_specular = "ep1_mena_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+pdxmesh = {
+	name = "ep1_indian_sword_01_a_mesh"
+	file = "ep1_indian_sword_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 16.0 }
+		lod = { index = 2 percent = 8.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_indian_sword_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_sword_01_a_normal.dds"
+		texture_specular = "ep1_indian_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_sword_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_sword_01_a_normal.dds"
+		texture_specular = "ep1_indian_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_indian_sword_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_indian_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_indian_sword_01_a_normal.dds"
+		texture_specular = "ep1_indian_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_steppe_sword_01_a_mesh"
+	file = "ep1_steppe_sword_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_sword_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_sword_01_a_normal.dds"
+		texture_specular = "ep1_steppe_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_sword_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_sword_01_a_normal.dds"
+		texture_specular = "ep1_steppe_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_steppe_sword_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_steppe_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_steppe_sword_01_a_normal.dds"
+		texture_specular = "ep1_steppe_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_northern_sword_01_a_mesh"
+	file = "ep1_northern_sword_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 10.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_northern_sword_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "portrait_prop_fp1_marshal_sword_01_diffuse.dds"
+		texture_normal = "portrait_prop_fp1_marshal_sword_01_normal.dds"
+		texture_specular = "portrait_prop_fp1_marshal_sword_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_northern_sword_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "portrait_prop_fp1_marshal_sword_01_diffuse.dds"
+		texture_normal = "portrait_prop_fp1_marshal_sword_01_normal.dds"
+		texture_specular = "portrait_prop_fp1_marshal_sword_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_northern_sword_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "portrait_prop_fp1_marshal_sword_01_diffuse.dds"
+		texture_normal = "portrait_prop_fp1_marshal_sword_01_normal.dds"
+		texture_specular = "portrait_prop_fp1_marshal_sword_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_02_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_northern_sword_01_b_mesh"
+	file = "ep1_northern_sword_01_b.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 10.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_northern_sword_01_b_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_northern_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_northern_sword_01_b_normal.dds"
+		texture_specular = "ep1_northern_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_northern_sword_01_b|LOD_0|ep1_western_weaponrack_01_LOD0|ep"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_northern_sword_01_b_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_northern_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_northern_sword_01_b_normal.dds"
+		texture_specular = "ep1_northern_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_northern_sword_01_b_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_northern_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_northern_sword_01_b_normal.dds"
+		texture_specular = "ep1_northern_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+#### A - high quality western
+
+pdxmesh = {
+	name = "ep1_western_sword_01_a_mesh"
+	file = "ep1_western_sword_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_a|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_a|LOD_1|ep1_western_weaponrack_01_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_a|LOD_2|ep1_western_weaponrack_01_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_sword_02_a_mesh"
+	file = "ep1_western_sword_02_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_a|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_a|LOD_1|ep1_western_weaponrack_01_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_a|LOD_2|ep1_western_weaponrack_01_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+pdxmesh = {
+	name = "ep1_western_sword_03_a_mesh"
+	file = "ep1_western_sword_03_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_a|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_a|LOD_1|ep1_western_weaponrack_02_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_a|LOD_2|ep1_western_weaponrack_02_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_sword_04_a_mesh"
+	file = "ep1_western_sword_04_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_a|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_a|LOD_1|ep1_western_weaponrack_02_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_a_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_a_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_a_normal.dds"
+		texture_specular = "ep1_western_sword_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_a|LOD_2|ep1_western_weaponrack_02_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+#### B - normal quality western
+
+
+pdxmesh = {
+	name = "ep1_western_sword_01_b_mesh"
+	file = "ep1_western_sword_01_b.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_b_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_b|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_b_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_b|LOD_1|ep1_western_weaponrack_01_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_b_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_01_b|LOD_2|ep1_western_weaponrack_01_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_sword_02_b_mesh"
+	file = "ep1_western_sword_02_b.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_b_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_b|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_b_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_b|LOD_1|ep1_western_weaponrack_01_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_b_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_02_b|LOD_2|ep1_western_weaponrack_01_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_sword_03_b_mesh"
+	file = "ep1_western_sword_03_b.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_b_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_b|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_b_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_b|LOD_1|ep1_western_weaponrack_01_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_b_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_03_b|LOD_2|ep1_western_weaponrack_01_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_sword_04_b_mesh"
+	file = "ep1_western_sword_04_b.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 3.0 }
+		lod = { index = 2 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_b_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_b|LOD_0|ep1_western_weaponrack_01_LOD0|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_b_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_b|LOD_1|ep1_western_weaponrack_01_LOD1|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_b_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_sword_01_b_diffuse.dds"
+		texture_normal = "ep1_western_sword_01_b_normal.dds"
+		texture_specular = "ep1_western_sword_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_sword_04_b|LOD_2|ep1_western_weaponrack_01_LOD2|ep1"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+#################
+#	Entities	#
+#################
+
+
+#entity = {
+#	name 	= "test_cube_entity"
+#	pdxmesh	= "test_cube_mesh"
+#}
+
+##### Axes -----------------------------------------
+
+
+
+entity = {
+	name = "ep1_indian_axe_01_a_entity"
+	pdxmesh = "ep1_indian_axe_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_mena_axe_01_a_entity"
+	pdxmesh = "ep1_mena_axe_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_northern_axe_01_a_entity"
+	pdxmesh = "ep1_northern_axe_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_axe_01_a_entity"
+	pdxmesh = "ep1_western_axe_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_steppe_axe_01_a_entity"
+	pdxmesh = "ep1_steppe_axe_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_african_axe_01_a_entity"
+	pdxmesh = "ep1_african_axe_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_mediterranean_axe_01_a_entity"
+	pdxmesh = "ep1_mediterranean_axe_01_a_mesh"
+}
+
+##### Daggers -----------------------------------------
+
+entity = {
+	name = "ep1_indian_dagger_01_a_entity"
+	pdxmesh = "ep1_indian_dagger_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_mena_dagger_01_a_entity"
+	pdxmesh = "ep1_mena_dagger_01_a_mesh"
+}
+
+entity = {
+	name 	= "ep1_western_dagger_01_a_entity"
+	pdxmesh	= "ep1_western_dagger_01_a_mesh"
+}
+
+
+
+##### Hammers -----------------------------------------
+
+entity = {
+	name = "ep1_mena_hammer_01_a_entity"
+	pdxmesh = "ep1_mena_hammer_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_hammer_01_a_entity"
+	pdxmesh = "ep1_western_hammer_01_a_mesh"
+}
+
+
+
+##### Maces -----------------------------------------
+
+entity = {
+	name = "ep1_african_mace_01_a_entity"
+	pdxmesh = "ep1_african_mace_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_indian_mace_01_a_entity"
+	pdxmesh = "ep1_indian_mace_01_a_mesh"
+}
+
+entity = {
+	name 	= "ep1_mena_mace_01_a_entity"
+	pdxmesh	= "ep1_mena_mace_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_mace_01_a_entity"
+	pdxmesh = "ep1_western_mace_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_byzantine_mace_01_a_entity"
+	pdxmesh = "ep1_byzantine_mace_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_steppe_mace_01_a_entity"
+	pdxmesh = "ep1_steppe_mace_01_a_mesh"
+}
+
+
+##### Spears -----------------------------------------
+
+entity = {
+	name 	= "ep1_african_spear_01_a_entity"
+	pdxmesh	= "ep1_african_spear_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_indian_spear_01_a_entity"
+	pdxmesh = "ep1_indian_spear_01_a_mesh"
+}
+
+entity = {
+	name 	= "ep1_mena_spear_01_a_entity"
+	pdxmesh	= "ep1_mena_spear_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_spear_01_a_entity"
+	pdxmesh = "ep1_western_spear_01_a_mesh"
+}
+
+
+##### Swords -----------------------------------------
+
+entity = {
+	name = "ep1_byzantine_sword_01_a_entity"
+	pdxmesh	= "ep1_byzantine_sword_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_african_sword_01_a_entity"
+	pdxmesh = "ep1_african_sword_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_indian_sword_01_a_entity"
+	pdxmesh = "ep1_indian_sword_01_a_mesh"
+}
+entity = {
+	name = "ep1_mena_sword_01_a_entity"
+	pdxmesh = "ep1_mena_sword_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_steppe_sword_01_a_entity"
+	pdxmesh = "ep1_steppe_sword_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_01_a_entity"
+	pdxmesh = "ep1_western_sword_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_01_b_entity"
+	pdxmesh = "ep1_western_sword_01_b_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_02_a_entity"
+	pdxmesh = "ep1_western_sword_02_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_02_b_entity"
+	pdxmesh = "ep1_western_sword_02_b_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_03_a_entity"
+	pdxmesh = "ep1_western_sword_03_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_03_b_entity"
+	pdxmesh = "ep1_western_sword_03_b_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_04_a_entity"
+	pdxmesh = "ep1_western_sword_04_a_mesh"
+}
+
+entity = {
+	name = "ep1_western_sword_04_b_entity"
+	pdxmesh = "ep1_western_sword_04_b_mesh"
+}
+
+entity = {
+	name = "ep1_northern_sword_01_a_entity"
+	pdxmesh = "ep1_northern_sword_01_a_mesh"
+}
+
+entity = {
+	name = "ep1_northern_sword_01_b_entity"
+	pdxmesh = "ep1_northern_sword_01_b_mesh"
+}
+
+
+#################
+#	Clones		#
+#################
+
+#entity = {
+#	name 	= "test_clone_entity"
+#	clone 	= "test_cube_entity"
+#
+#}
+#

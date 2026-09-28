@@ -1,0 +1,484 @@
+
+
+
+
+#################
+#	Meshes	#
+#################
+
+##### Lights -----------------------------------------
+
+pdxmesh = {
+	name = "ep1_western_candles_mesh"
+	file = "ep1_western_candles.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 15.0 }
+		lod = { index = 2 percent = 6.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_candles_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_candles_diffuse.dds"
+		texture_normal = "ep1_western_candles_normal.dds"
+		texture_specular = "ep1_western_candles_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_candles_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_candles_diffuse.dds"
+		texture_normal = "ep1_western_candles_normal.dds"
+		texture_specular = "ep1_western_candles_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_candles_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_candles_diffuse.dds"
+		texture_normal = "ep1_western_candles_normal.dds"
+		texture_specular = "ep1_western_candles_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_oil_lamp_01_a_mesh"
+	file = "ep1_western_oil_lamp_01_a.mesh"
+
+	meshsettings = {
+		name = "ep1_western_oil_lamp_01_aShape"
+		index = 0
+		texture_diffuse = "ep1_western_lightsources_01_a_diffuse.dds"
+		texture_normal = "ep1_western_lightsources_01_a_normal.dds"
+		texture_specular = "ep1_western_lightsources_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_chandelier_01_a_mesh"
+	file = "ep1_western_chandelier_01_a.mesh"
+
+	meshsettings = {
+		name = "ep1_western_chandelier_01_aShape"
+		index = 0
+		texture_diffuse = "ep1_western_lightsources_01_a_diffuse.dds"
+		texture_normal = "ep1_western_lightsources_01_a_normal.dds"
+		texture_specular = "ep1_western_lightsources_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_fireplace_logs_mesh"
+	file = "ep1_fireplace_logs.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 12.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_fireplace_logs_LOD0Shape"
+		index = 0
+		texture_diffuse = "fireplace_logs_diffuse.dds"
+		texture_normal = "fireplace_logs_normal.dds"
+		texture_specular = "fireplace_logs_properties.dds"
+		shader = "court_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_fireplace_logs_LOD1Shape"
+		index = 0
+		texture_diffuse = "fireplace_logs_diffuse.dds"
+		texture_normal = "fireplace_logs_normal.dds"
+		texture_specular = "fireplace_logs_properties.dds"
+		shader = "court_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_fireplace_logs_LOD2Shape"
+		index = 0
+		texture_diffuse = "fireplace_logs_diffuse.dds"
+		texture_normal = "fireplace_logs_normal.dds"
+		texture_specular = "fireplace_logs_properties.dds"
+		shader = "court_alpha_to_coverage"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_candle_01_a_mesh"
+	file = "ep1_western_candle_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 25.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_candle_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_candle_brazier_01_a_diffuse.dds"
+		texture_normal = "ep1_western_candle_brazier_01_a_normal.dds"
+		texture_specular = "ep1_western_candle_brazier_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_candle_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_candle_brazier_01_a_diffuse.dds"
+		texture_normal = "ep1_western_candle_brazier_01_a_normal.dds"
+		texture_specular = "ep1_western_candle_brazier_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_candle_01_a_tabletop_mesh"
+	file = "ep1_western_candle_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 25.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_candle_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_candle_brazier_01_a_diffuse.dds"
+		texture_normal = "ep1_western_candle_brazier_01_a_normal.dds"
+		texture_specular = "ep1_western_candle_brazier_01_a_properties.dds"
+		shader = "standard_map_decoration"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_candle_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_candle_brazier_01_a_diffuse.dds"
+		texture_normal = "ep1_western_candle_brazier_01_a_normal.dds"
+		texture_specular = "ep1_western_candle_brazier_01_a_properties.dds"
+		shader = "standard_map_decoration"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+pdxmesh = {
+	name = "ep1_western_brazier_01_a_mesh"
+	file = "ep1_western_brazier_01_a.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 25.0 }
+	}
+
+	meshsettings = {
+		name = "ep1_western_brazier_01_a_LOD0Shape"
+		index = 0
+		texture_diffuse = "fireplace_logs_diffuse.dds"
+		texture_normal = "fireplace_logs_normal.dds"
+		texture_specular = "fireplace_logs_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_brazier_01_a_LOD0Shape"
+		index = 1
+		texture_diffuse = "ep1_western_candle_brazier_01_a_diffuse.dds"
+		texture_normal = "ep1_western_candle_brazier_01_a_normal.dds"
+		texture_specular = "ep1_western_candle_brazier_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_brazier_01_a_LOD1Shape"
+		index = 0
+		texture_diffuse = "fireplace_logs_diffuse.dds"
+		texture_normal = "fireplace_logs_normal.dds"
+		texture_specular = "fireplace_logs_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_brazier_01_a_LOD1Shape"
+		index = 1
+		texture_diffuse = "ep1_western_candle_brazier_01_a_diffuse.dds"
+		texture_normal = "ep1_western_candle_brazier_01_a_normal.dds"
+		texture_specular = "ep1_western_candle_brazier_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+
+
+#################
+#	Entities	#
+#################
+
+##### Lights -----------------------------------------
+
+
+entity = {
+	name = "ep1_western_candles_entity"
+	pdxmesh = "ep1_western_candles_mesh"
+}
+
+entity = {
+	name = "ep1_western_candle_01_a_entity"
+	pdxmesh = "ep1_western_candle_01_a_mesh"
+	default_state = "idle"
+       state = 
+	   { 
+			name = "idle" state_time = 5 looping = yes
+			event = 
+			{ 
+				sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/candle" } 	
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_01"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_02"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_03"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_04"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_05"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+
+       }
+}
+
+entity = {
+	name = "ep1_western_candle_01_a_tabletop_entity"
+	pdxmesh = "ep1_western_candle_01_a_tabletop_mesh"
+	default_state = "idle"
+       state = 
+	   { 
+			name = "idle" state_time = 5 looping = yes
+			event = 
+			{ 
+				sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/candle" } 	
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_01"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_02"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_03"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_04"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+			event =
+			{
+				time = 0
+				node = "Candleflame_05"
+				particle = "roco_candle"
+				trigger_once = yes
+				keep_particle = yes
+			}
+
+       }
+}
+
+entity = {
+	name = "ep1_western_brazier_01_a_entity"
+	pdxmesh = "ep1_western_brazier_01_a_mesh"
+	default_state = "default"
+       state = { name = "default"
+               event = { sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/brazier" } }
+       }
+}
+
+
+entity = {
+	name = "ep1_western_oil_lamp_01_a_entity"
+	pdxmesh = "ep1_western_oil_lamp_01_a_mesh"
+
+	default_state = "idle"
+	state =
+	{
+		name = "idle" state_time = 5 looping = yes
+		event =
+		{
+			time = 0
+			node = "Oil_lamp_flame"
+			particle = "roco_lamp_flame"
+			trigger_once = yes
+			keep_particle = yes
+		}
+	event = { trigger_once = yes time = 0.0 sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/oil_lamp" }}
+
+	}
+
+}
+
+
+entity = {
+	name = "ep1_western_chandelier_01_a_entity"
+	pdxmesh = "ep1_western_chandelier_01_a_mesh"
+
+	default_state = "idle"
+	state =
+	{
+		name = "idle" state_time = 5 looping = yes
+		event =
+		{
+			time = 0
+			node = "Candleflame_01"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event =
+		{
+			time = 0
+			node = "Candleflame_02"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event =
+		{
+			time = 0
+			node = "Candleflame_03"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event =
+		{
+			time = 0
+			node = "Candleflame_04"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event =
+		{
+			time = 0
+			node = "Candleflame_05"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event =
+		{
+			time = 0
+			node = "Candleflame_06"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event =
+		{
+			time = 0
+			node = "Candleflame_07"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event =
+		{
+			time = 0
+			node = "Candleflame_08"
+			particle = "roco_candle"
+			trigger_once = yes
+			keep_particle = yes
+		}
+		event = { trigger_once = yes time = 0.0 sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/chandelier" }}
+	}
+}
+
+entity = {
+	name = "ep1_fireplace_logs_entity"
+	pdxmesh = "ep1_fireplace_logs_mesh"
+
+	default_state = "idle"
+	state =
+	{
+		name = "idle" state_time = 5 looping = yes
+
+	event = { trigger_once = yes time = 0.0 sound = { soundeffect = "event:/DLC/EP1/SFX/Ambience/3D/Objects/courtroom/fireplace" }}
+
+	}
+}
+
+
+#################
+#	Clones		#
+#################
+
+#entity = {
+#	name 	= "test_clone_entity"
+#	clone 	= "test_cube_entity"
+#
+#}

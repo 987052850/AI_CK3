@@ -1,0 +1,193 @@
+
+hbox = {
+	name = "material_brush_options"
+
+	spacing = 4
+
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = expanding
+
+	toolbox_checkbutton = {
+		name = "material_painter_toolbox_button"
+		shortcut = "material_painter_brush_tool"
+		raw_tooltip = "Material Paint Brush"
+		checked = "[MaterialPaintingMode.IsPainterSelected]"
+		onclick = "[MaterialPaintingMode.SelectPainter]"
+		
+		toolbox_icon = {
+			texture = "gfx/tools/material/brush.png"
+		}
+	}
+
+	toolbox_checkbutton = {
+		name = "material_eraser_toolbox_button"
+		shortcut = "material_painter_eraser_tool"
+		raw_tooltip = "Material Eraser"
+		checked = "[MaterialPaintingMode.IsEraserSelected]"
+		onclick = "[MaterialPaintingMode.SelectEraser]"
+		
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/eraser.png"
+		}
+	}
+
+	eyedropper_checkbutton = {
+		blockoverride "behaviour" {
+			checked = "[MaterialPaintingMode.IsEyeDropperSelected]"
+			onclick = "[MaterialPaintingMode.SelectEyeDropper]"
+		}
+	}
+
+	toolbox_checkbutton = {
+		name = "material_trimmer_toolbox_button"
+		shortcut = "material_painter_trimmer_tool"
+		raw_tooltip = "Material Trimmer is erasing all materials that exceed the given limit."
+		checked = "[MaterialPaintingMode.IsTrimmerSelected]"
+		onclick = "[MaterialPaintingMode.SelectTrimmer]"
+		
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/trimmer.png"
+			size = { 32 32 }
+		}
+	}
+
+	toolbox_checkbutton = {
+		name = "material_blur_toolbox_button"
+		shortcut = "material_painter_blur_tool"
+		raw_tooltip = "Blur all materials within the brush radius. Hold #COLOR:{1,1,0} SHIFT#! to access this tool at any time."
+		checked = "[MaterialPaintingMode.IsBlurSelected]"
+		onclick = "[MaterialPaintingMode.SelectBlur]"
+		
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/blur.png"
+			size = { 32 32 }
+		}
+	}
+
+	blur_threshold_slider = { 
+		datacontext = "[MaterialPaintingMode.AccessBlurThresholdCtx]"
+		visible = "[MaterialPaintingMode.IsBlurSelected]" 
+	}
+
+	tooloptions_divider = {
+	}
+
+	brush_settings_button = {
+		widgetid = "material_brush_settings"
+		shortcut = "tooloption_1"
+		visible = "[MaterialPaintingMode.IsPaintingAllowed]"
+	}
+
+	toolbox_checkbutton = {
+		name = "brush_settings_lock_button"
+		raw_tooltip = "When enabled, all material painting tools will use the same global brush settings."
+		checked = "[MaterialPaintingMode.IsBrushSettingsLock]"
+		onclick = "[MaterialPaintingMode.SetBrushSettingsLock(Not(MaterialPaintingMode.IsBrushSettingsLock))]"
+		
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/brush_settings_lock.png"
+			size = { 32 32 }
+		}
+	}
+
+	toolbox_checkbutton = {
+		name = "trim_while_paint_button"
+		raw_tooltip = "When enabled, materials will be automatically trimmed while using paint brush."
+		checked = "[MaterialPaintingMode.IsTrimWhilePainting]"
+		onclick = "[MaterialPaintingMode.SetTrimWhilePainting(Not(MaterialPaintingMode.IsTrimWhilePainting))]"
+		
+		toolbox_icon = {
+			texture = "gfx/editor_terrain/trim_when_paint.png"
+			size = { 32 32 }
+		}
+	}
+
+	pixelsnap_checkbutton = {
+		visible = "[MaterialPaintingMode.IsPaintingAllowed]"
+	}
+	
+	tooloptions_divider = {
+	}
+
+	toolbox_button = {
+		shortcut = "material_painter_error_focus"
+		onclick = "[MaterialPaintingMode.FocusCameraOnError]"
+		raw_tooltip = "Focus camera on material error."
+		toolbox_icon = {
+			texture = "gfx/tools/focus_view_icon.dds"
+			size = { 32 32 }
+			visible = "[Not(MaterialPaintingMode.IsSearchingForError)]"
+		}
+		tooloptions_progress_spinner = {
+			size = { 32 32 }
+			visible = "[MaterialPaintingMode.IsSearchingForError]"
+		}
+	}
+
+	tooloptions_divider = {
+	}
+
+	toolbox_button = {
+		onclick = "[MaterialPaintingMode.ReloadMaterials]"
+		raw_tooltip = "Reload all material textures from disk"
+
+		toolbox_icon = {
+			texture = "gfx/tools/reload_icon.dds"
+		}
+	}
+
+	widget = {
+		name = "spacer"
+		layoutpolicy_horizontal = expanding
+	}
+}
+
+toolbox_checkbutton = {
+	name = "material_brush_toolbox_button"
+	shortcut = "brush_tool"
+	raw_tooltip = "Material Brush"
+	checked = "[MaterialPaintingMode.IsSelected]"
+	
+	toolbox_icon = {
+		texture = "gfx/tools/material/brush.png"
+	}
+}
+
+widget = {
+	alwaystransparent = no
+	size = { 100% 100% }
+	name = "material_painter_viewport"
+
+	# TODO: Use map_editor_viewport_tooltip instead
+	widget = {
+		size = { 100% 100% }
+		tooltip_type = mouse
+		tooltip_widgetanchor = bottom|left
+		
+		tooltipwidget = {
+
+			flowcontainer = {
+
+				margin = { 8 4 }
+				
+				background = {
+					visible = "[Not(MaterialPaintingMode.IsPaintingAllowed)]"
+					texture = "gfx/editor_gui/editor_layout_window.png"
+					spriteType = CorneredStretched
+					spriteborder = { 5 5 }
+					shaderfile = "gfx/FX/pdxgui_default.shader"
+					framesize = { 16 16 }
+				}
+
+				# Warning to user explaining why you can't paint right now.
+				tooloptions_textbox = {
+					visible = "[Not(MaterialPaintingMode.IsPaintingAllowed)]"
+					raw_text = "#COLOR:{1,0,0} Select material first!#!"
+					autoresize = yes
+				}
+			}
+		}
+	}
+	
+	eyedropper_viewport_tooltip = {}
+}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "CK3\u539F\u7248\u6CB3\u9762"
+  m_Shader: {fileID: 4800000, guid: 2bdc94b55bc54794f885d9cbe403d118, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3010
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CK3HeightLookupTexture:
+        m_Texture: {fileID: 2800000, guid: 85fb8460708466f49b4dfd0be7da7a0a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CK3PackedHeightTexture:
+        m_Texture: {fileID: 2800000, guid: a969cacbfe983104793b7c33ee3d68e4, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterColorTexture:
+        m_Texture: {fileID: 2800000, guid: d99da5acb3a611542ac8799d84cdae18, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CK3BaseTileSize: 65
+    - _CK3HeightScale: 50
+    - _FlatMapHeight: 3.92
+    - _FlatMapLerp: 0
+    - _FlowNormalSpeed: 0.075
+    - _FlowNormalUvScale: 0.4
+    - _OceanFadeRate: 0.8
+    - _RiverHeightOffset: 1
+    - _RiverOpacity: 0.82
+    - _TextureUvScale: 0.8
+    m_Colors:
+    - _CK3IndirectionSize: {r: 288, g: 144, b: 0, a: 0}
+    - _CK3OriginalHeightmapToWorldSpace: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _CK3TileToHeightMap0: {r: 0.020408163, g: 0.01600591, b: 0, a: 0}
+    - _CK3TileToHeightMap1: {r: 0.010361068, g: 0.008126077, b: 0, a: 0.34400395}
+    - _CK3TileToHeightMap2: {r: 0.0053375196, g: 0.004186161, b: 0, a: 0.7704999}
+    - _CK3TileToHeightMap3: {r: 0.0028257456, g: 0.002216203, b: 0, a: 0.9086432}
+    - _CK3TileToHeightMap4: {r: 0.0015698588, g: 0.0012312238, b: 0, a: 0.95075107}
+    - _CK3WorldExtents: {r: 9215, g: 4607, b: 0, a: 0}
+    - _CK3WorldSpaceToLookup: {r: 0.000108506945, g: 0.00021701389, b: 0, a: 0}
+    - _RiverColor: {r: 0.72, g: 0.88, b: 0.92, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: "CK3\u539F\u7248\u8FD1\u666F\u88C5\u9970\u6570\u636E"
+  m_EditorClassIdentifier: Assembly-CSharp:CK3Map:CK3DecorationData
+  batches:
+  - originalPdxMeshName: tree_cypress_01_a_mesh
+    mesh: {fileID: 4300000, guid: eeb475465a6a53a46bfcf3d55d3e818e, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 22c987a8ea834cd47907212a00848273, type: 2}
+    transformData: {fileID: 4900000, guid: 8e46c104b568ade48824d2c6eba98188, type: 3}
+    instanceCount: 3532
+  - originalPdxMeshName: tree_jungle_01_c_mesh
+    mesh: {fileID: 4300000, guid: a3eb1d93ea898ec45894e21a5e1a11ec, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 5b898b049faf54740a131f58234d5603, type: 2}
+    transformData: {fileID: 4900000, guid: b339be34124075e438d372c2973f0c3a, type: 3}
+    instanceCount: 1227
+  - originalPdxMeshName: tree_jungle_01_d_mesh
+    mesh: {fileID: 4300000, guid: f89e7f72a0380f64a9fed07e5ea31601, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 35316355400ac974c857618e97e384f1, type: 2}
+    transformData: {fileID: 4900000, guid: 67a9335327a271343882039c433706c8, type: 3}
+    instanceCount: 38113
+  - originalPdxMeshName: tree_leaf_01_single_a_mesh
+    mesh: {fileID: 4300000, guid: de86e8660ef7f5845b1f09b9fc848095, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 67e631f9c1da3b94ea9ce953f7420abc, type: 2}
+    transformData: {fileID: 4900000, guid: d41ae17b205e5814293a877c0cc64df5, type: 3}
+    instanceCount: 3954
+  - originalPdxMeshName: tree_leaf_01_a_mesh
+    mesh: {fileID: 4300000, guid: f6caef799665855448064b888f83d5cf, type: 2}
+    materials:
+    - {fileID: 2100000, guid: a65722b0ba65e3341aac561a64ed37a8, type: 2}
+    transformData: {fileID: 4900000, guid: 4a1798fd817520e428178adad852383d, type: 3}
+    instanceCount: 7372
+  - originalPdxMeshName: tree_leaf_01_a_mesh
+    mesh: {fileID: 4300000, guid: f6caef799665855448064b888f83d5cf, type: 2}
+    materials:
+    - {fileID: 2100000, guid: a65722b0ba65e3341aac561a64ed37a8, type: 2}
+    transformData: {fileID: 4900000, guid: 722e5b5407ee3f1428621b4e81fdd3d7, type: 3}
+    instanceCount: 138645
+  - originalPdxMeshName: tree_leaf_01_b_mesh
+    mesh: {fileID: 4300000, guid: 83f1d2b43f1603e45aeb2cfd16e36935, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 3f5724d3ff6898b41b39cffe7f6c5d15, type: 2}
+    transformData: {fileID: 4900000, guid: 0b8abef45ef7c864fb3fc5329c33faae, type: 3}
+    instanceCount: 36248
+  - originalPdxMeshName: tree_leaf_01_c_mesh
+    mesh: {fileID: 4300000, guid: 287852bc63d2f584e924beeeee092a97, type: 2}
+    materials:
+    - {fileID: 2100000, guid: d1fe260be8b69474aba104c73451726c, type: 2}
+    transformData: {fileID: 4900000, guid: 68ee2af89bf05694aba7b6e6b94073b9, type: 3}
+    instanceCount: 74170
+  - originalPdxMeshName: tree_palm_01_a_mesh
+    mesh: {fileID: 4300000, guid: 68d7ac26dc80dec4f9e70e59a8e2851a, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 45c7e284686e03248bf9c1145feaa53f, type: 2}
+    transformData: {fileID: 4900000, guid: b55070596948aca4ea5633fb3b733e1f, type: 3}
+    instanceCount: 12739
+  - originalPdxMeshName: tree_pine_single_01_a_mesh
+    mesh: {fileID: 4300000, guid: 4e83d91ca725de74d907b8fe7af7c6f5, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 2756db31d0dc110458a4cf6b084752ec, type: 2}
+    transformData: {fileID: 4900000, guid: 440c535516ae5094aa5e71d3894c29fc, type: 3}
+    instanceCount: 17379
+  - originalPdxMeshName: tree_pine_01_b_mesh
+    mesh: {fileID: 4300000, guid: 32e732b3a7a8d3345b7e19cc96287e5a, type: 2}
+    materials:
+    - {fileID: 2100000, guid: b48f57f73cccaf149a55af4a2adc1595, type: 2}
+    transformData: {fileID: 4900000, guid: d3c2480fb0fb1c849a84f180d0864ead, type: 3}
+    instanceCount: 87196
+  - originalPdxMeshName: tree_pine_impassable_01_a_mesh
+    mesh: {fileID: 4300000, guid: c2d7e2264a5c19647bf1bd42aae70116, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 7212d41dbe6927345821829ef798c58e, type: 2}
+    transformData: {fileID: 4900000, guid: ddf944b4451b6944ab7f5cea4f8043e3, type: 3}
+    instanceCount: 30406
+  - originalPdxMeshName: tree_sakura_01_mesh
+    mesh: {fileID: 4300000, guid: b28df1e11077507458836723c5c69ae3, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 3f4f24eea931e87458d11fd2393f038a, type: 2}
+    transformData: {fileID: 4900000, guid: 121d19e32998ffb499086132f29a1f11, type: 3}
+    instanceCount: 323
+  - originalPdxMeshName: tree_sakura_02_mesh
+    mesh: {fileID: 4300000, guid: 7f734ef541b64f64a87a8e620a4565b6, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 4fbe5ddc27447ac4486e0624884491d0, type: 2}
+    transformData: {fileID: 4900000, guid: b4eed1ac6ba1ddf48a628d25e956c129, type: 3}
+    instanceCount: 53
+  - originalPdxMeshName: tree_sakura_03_mesh
+    mesh: {fileID: 4300000, guid: 53cecbc0c40614d439a940b173bf750c, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 8e3c1c445b6aad24d83b3e3877e36e8f, type: 2}
+    transformData: {fileID: 4900000, guid: eb08f2b7af23bff4cab08c7937adfacf, type: 3}
+    instanceCount: 143
+  - originalPdxMeshName: tree_sakura_01_mesh
+    mesh: {fileID: 4300000, guid: b28df1e11077507458836723c5c69ae3, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 3f4f24eea931e87458d11fd2393f038a, type: 2}
+    transformData: {fileID: 4900000, guid: 8e8ecf122ae47274d80359b5eebca880, type: 3}
+    instanceCount: 62
+  - originalPdxMeshName: building_western_castle_01_mesh
+    mesh: {fileID: 4300000, guid: 7bb03ac04fb77af459d1535821d2838a, type: 2}
+    materials:
+    - {fileID: 2100000, guid: 811cd0c1ff7c06b4eb332a4652837696, type: 2}
+    transformData: {fileID: 4900000, guid: ef09906368874344889b73e0d6e88b33, type: 3}
+    instanceCount: 1758
