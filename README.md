@@ -17,10 +17,11 @@
 1. 将 `mod/AI_CK3` 文件夹复制到你的 CK3 mod 目录  
    Copy the `mod/AI_CK3` folder to your CK3 mod directory:
    - Windows: `%USERPROFILE%\Documents\Paradox Interactive\Crusader Kings III\mod\`
-   - Linux: `~/.local/share/Paradox Interactive/Crusader Kings III/mod\`
+   - Linux: `~/.local/share/Paradox Interactive/Crusader Kings III/mod/`
 
-2. 将 `AI_CK3.mod` 文件复制到同一目录  
-   Copy `AI_CK3.mod` to the same directory.
+2. 将 `descriptor.mod` 文件复制到同一目录，并重命名为 `AI_CK3.mod`  
+   Copy `descriptor.mod` to the same directory and rename it to `AI_CK3.mod`.  
+   _(Or copy the provided `AI_CK3.mod` file directly — it is identical to `descriptor.mod`.)_
 
 3. 在游戏启动器中启用 AI_CK3 模组  
    Enable the AI_CK3 mod in the game launcher.
