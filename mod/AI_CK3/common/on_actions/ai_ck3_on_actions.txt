@@ -30,11 +30,9 @@ on_title_gain = {
 			limit = {
 				is_ai = yes
 				is_ruler = yes
+				NOT = { has_character_flag = ai_ck3_initialized }
 			}
-			add_character_modifier = {
-				modifier = ai_ck3_ai_initialized
-				days = 1
-			}
+			add_character_flag = ai_ck3_initialized
 		}
 	}
 }

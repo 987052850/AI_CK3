@@ -4,7 +4,3 @@ ai_ck3_military_readiness = {
 	monthly_income = -1
 	men_at_arms_maintenance = -0.1
 }
-
-ai_ck3_ai_initialized = {
-	# Placeholder modifier applied briefly on character creation
-}

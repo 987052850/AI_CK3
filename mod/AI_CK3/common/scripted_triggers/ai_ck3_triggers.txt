@@ -11,7 +11,7 @@ ai_ck3_should_expand_militarily = {
 		has_trait = greedy
 	}
 	any_neighboring_realm_leader = {
-		NOT = { has_opinion = { target = root value >= 0 } }
+		NOT = { opinion = { target = root value >= 0 } }
 		realm_size < root.realm_size
 	}
 }

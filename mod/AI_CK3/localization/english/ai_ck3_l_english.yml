@@ -10,7 +10,6 @@ l_english:
  ai_ck3.002.b: "Hold. The time is not yet right."
 
  ai_ck3_military_readiness: "Military Readiness"
- ai_ck3_ai_initialized: "AI Initialized"
  ai_ck3_diplomatic_gesture: "Diplomatic Goodwill"
  ai_ck3_goodwill_gift: "Goodwill Gift"
  ai_ck3_reinforce_decision: "Reinforce the Army"
