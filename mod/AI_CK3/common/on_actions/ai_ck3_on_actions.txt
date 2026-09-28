@@ -1,0 +1,39 @@
+# AI_CK3 On Actions
+# Hook into game events to apply AI enhancements.
+
+on_yearly_pulse = {
+	effect = {
+		every_ruler = {
+			limit = {
+				is_ai = yes
+			}
+			# AI military expansion logic
+			if = {
+				limit = { ai_ck3_should_expand_militarily = yes }
+				ai_ck3_reinforce_military_effect = yes
+			}
+			# AI diplomacy logic
+			else_if = {
+				limit = { ai_ck3_should_seek_alliance = yes }
+				ai_ck3_diplomatic_outreach_effect = yes
+			}
+			# AI stability logic
+			else_if = {
+				limit = { ai_ck3_is_vulnerable = yes }
+				ai_ck3_stabilize_realm_effect = yes
+			}
+		}
+	}
+}
+
+on_new_character_created = {
+	effect = {
+		if = {
+			limit = { is_ai = yes }
+			add_character_modifier = {
+				modifier = ai_ck3_ai_initialized
+				days = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+# AI_CK3 Scripted Effects
+# These effects are used by the AI to execute decisions and actions.
+
+# Effect: AI reinforces its military position
+ai_ck3_reinforce_military_effect = {
+	if = {
+		limit = { gold >= 100 }
+		add_gold = -100
+		add_men_at_arms = {
+			type = heavy_infantry
+			men = 100
+		}
+	}
+	add_character_modifier = {
+		modifier = ai_ck3_military_readiness
+		years = 5
+	}
+}
+
+# Effect: AI conducts diplomatic outreach
+ai_ck3_diplomatic_outreach_effect = {
+	random_neighboring_realm_leader = {
+		limit = {
+			NOT = { is_allied_to = root }
+			NOT = { is_at_war_with = root }
+			opinion = { target = root value >= 20 }
+		}
+		root = {
+			send_diplomatic_notification = {
+				type = ai_ck3_alliance_offer
+				target = prev
+			}
+		}
+	}
+}
+
+# Effect: AI stabilizes internal affairs
+ai_ck3_stabilize_realm_effect = {
+	every_vassal = {
+		limit = {
+			opinion = { target = root value < 0 }
+		}
+		add_opinion = {
+			target = root
+			modifier = ai_ck3_goodwill_gift
+			opinion = 10
+		}
+	}
+	if = {
+		limit = { gold >= 50 }
+		add_gold = -50
+	}
+}

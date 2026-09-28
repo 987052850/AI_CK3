@@ -1,0 +1,40 @@
+# AI_CK3 Scripted Triggers
+# These triggers are used by the AI to evaluate decisions and actions.
+
+# Check if an AI ruler should prioritize military expansion
+ai_ck3_should_expand_militarily = {
+	is_ai = yes
+	NOT = { is_at_war = yes }
+	gold >= 200
+	OR = {
+		military_strength >= 1500
+		has_trait = ambitious
+		has_trait = greedy
+	}
+	any_neighboring_realm_leader = {
+		NOT = { has_opinion = { target = root value >= 0 } }
+		realm_size < root.realm_size
+	}
+}
+
+# Check if an AI ruler should seek a new alliance
+ai_ck3_should_seek_alliance = {
+	is_ai = yes
+	NOT = { has_strong_hook = any }
+	any_neighboring_realm_leader = {
+		NOT = { is_allied_to = root }
+		NOT = { is_at_war_with = root }
+		opinion = { target = root value >= 30 }
+	}
+}
+
+# Check if an AI ruler is in a vulnerable position
+ai_ck3_is_vulnerable = {
+	is_ai = yes
+	OR = {
+		is_at_war = yes
+		health < 3
+		num_of_vassals_with_high_opinion < 3
+		gold < 50
+	}
+}

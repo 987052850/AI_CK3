@@ -1,0 +1,16 @@
+l_simp_chinese:
+ ai_ck3.001.t: "外交拓展"
+ ai_ck3.001.desc: "我们的顾问建议，加强与邻近领地的联系将有利于我们的地位。也许是时候展示一些善意了。"
+ ai_ck3.001.a: "伸出友谊之手。"
+ ai_ck3.001.b: "现在不是时候，我们有其他优先事项。"
+
+ ai_ck3.002.t: "备战扩张"
+ ai_ck3.002.desc: "我们的领地日益强盛，而邻居日渐衰弱。行动的时机即将到来，我们必须确保军队已经准备就绪。"
+ ai_ck3.002.a: "立即加强军队。"
+ ai_ck3.002.b: "等待。时机尚未成熟。"
+
+ ai_ck3_military_readiness: "军事准备度"
+ ai_ck3_ai_initialized: "AI 已初始化"
+ ai_ck3_diplomatic_gesture: "外交善意"
+ ai_ck3_goodwill_gift: "善意馈赠"
+ ai_ck3_alliance_offer: "结盟提议"

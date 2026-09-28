@@ -1,0 +1,96 @@
+# AI_CK3 Events
+# Events triggered by AI decision logic.
+
+namespace = ai_ck3
+
+# AI Diplomatic Offer Event
+ai_ck3.001 = {
+	type = character_event
+	title = ai_ck3.001.t
+	desc = ai_ck3.001.desc
+	theme = diplomacy
+
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:target_ruler
+		animation = thinking
+	}
+
+	trigger = {
+		is_ai = yes
+		ai_ck3_should_seek_alliance = yes
+	}
+
+	immediate = {
+		random_neighboring_realm_leader = {
+			limit = {
+				NOT = { is_allied_to = root }
+				NOT = { is_at_war_with = root }
+				opinion = { target = root value >= 20 }
+			}
+			save_scope_as = target_ruler
+		}
+	}
+
+	option = {
+		name = ai_ck3.001.a
+		trigger = { exists = scope:target_ruler }
+		scope:target_ruler = {
+			add_opinion = {
+				target = root
+				modifier = ai_ck3_diplomatic_gesture
+				opinion = 15
+			}
+		}
+		ai_chance = {
+			base = 80
+		}
+	}
+
+	option = {
+		name = ai_ck3.001.b
+		ai_chance = {
+			base = 20
+		}
+	}
+}
+
+# AI Military Readiness Event
+ai_ck3.002 = {
+	type = character_event
+	title = ai_ck3.002.t
+	desc = ai_ck3.002.desc
+	theme = war
+
+	left_portrait = {
+		character = root
+		animation = war_attacker
+	}
+
+	trigger = {
+		is_ai = yes
+		ai_ck3_should_expand_militarily = yes
+	}
+
+	option = {
+		name = ai_ck3.002.a
+		ai_ck3_reinforce_military_effect = yes
+		ai_chance = {
+			base = 70
+			modifier = {
+				add = 20
+				has_trait = ambitious
+			}
+		}
+	}
+
+	option = {
+		name = ai_ck3.002.b
+		ai_chance = {
+			base = 30
+		}
+	}
+}

@@ -1,0 +1,16 @@
+l_english:
+ ai_ck3.001.t: "Diplomatic Outreach"
+ ai_ck3.001.desc: "Our advisors suggest that strengthening ties with neighboring realms would benefit our position. Perhaps a gesture of goodwill is in order."
+ ai_ck3.001.a: "Extend an offer of friendship."
+ ai_ck3.001.b: "Not now. We have other priorities."
+
+ ai_ck3.002.t: "Preparing for Expansion"
+ ai_ck3.002.desc: "Our realm grows strong, and our neighbors grow weak. The moment to act may soon be upon us. We must ensure our forces are ready."
+ ai_ck3.002.a: "Reinforce our armies immediately."
+ ai_ck3.002.b: "Hold. The time is not yet right."
+
+ ai_ck3_military_readiness: "Military Readiness"
+ ai_ck3_ai_initialized: "AI Initialized"
+ ai_ck3_diplomatic_gesture: "Diplomatic Goodwill"
+ ai_ck3_goodwill_gift: "Goodwill Gift"
+ ai_ck3_alliance_offer: "Alliance Offer"
