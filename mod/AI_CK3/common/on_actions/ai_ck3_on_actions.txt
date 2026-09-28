@@ -38,18 +38,3 @@ on_new_character_created = {
 		}
 	}
 }
-
-on_new_character_created = {
-	effect = {
-		if = {
-			limit = {
-				is_ai = yes
-				is_ruler = yes
-			}
-			add_character_modifier = {
-				modifier = ai_ck3_ai_initialized
-				days = 1
-			}
-		}
-	}
-}

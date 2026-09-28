@@ -9,7 +9,6 @@ ai_ck3_decisions = {
 		selection_tooltip = ai_ck3_reinforce_decision_tooltip
 
 		is_shown = {
-			is_ai = yes
 			ai_ck3_should_expand_militarily = yes
 		}
 
@@ -41,7 +40,6 @@ ai_ck3_decisions = {
 		selection_tooltip = ai_ck3_stabilize_decision_tooltip
 
 		is_shown = {
-			is_ai = yes
 			ai_ck3_is_vulnerable = yes
 		}
 
