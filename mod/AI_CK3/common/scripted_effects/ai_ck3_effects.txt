@@ -36,18 +36,23 @@ ai_ck3_diplomatic_outreach_effect = {
 
 # Effect: AI stabilizes internal affairs
 ai_ck3_stabilize_realm_effect = {
-	every_vassal = {
-		limit = {
-			opinion = { target = root value < 0 }
-		}
-		add_opinion = {
-			target = root
-			modifier = ai_ck3_goodwill_gift
-			opinion = 10
-		}
-	}
 	if = {
-		limit = { gold >= 50 }
+		limit = {
+			gold >= 50
+			any_vassal = {
+				opinion = { target = root value < 0 }
+			}
+		}
 		add_gold = -50
+		every_vassal = {
+			limit = {
+				opinion = { target = root value < 0 }
+			}
+			add_opinion = {
+				target = root
+				modifier = ai_ck3_goodwill_gift
+				opinion = 10
+			}
+		}
 	}
 }

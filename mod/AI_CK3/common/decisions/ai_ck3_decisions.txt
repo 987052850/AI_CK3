@@ -1,0 +1,67 @@
+# AI_CK3 Decisions
+# AI-driven decisions that rulers can take based on AI logic.
+
+ai_ck3_decisions = {
+
+	ai_ck3_reinforce_decision = {
+		picture = "gfx/interface/icons/decision_icons/decision_realm.dds"
+		desc = ai_ck3_reinforce_decision_desc
+		selection_tooltip = ai_ck3_reinforce_decision_tooltip
+
+		is_shown = {
+			is_ai = yes
+			ai_ck3_should_expand_militarily = yes
+		}
+
+		is_valid = {
+			gold >= 100
+			NOT = { is_at_war = yes }
+		}
+
+		effect = {
+			ai_ck3_reinforce_military_effect = yes
+		}
+
+		ai_check_interval = 36
+		ai_potential = {
+			ai_ck3_should_expand_militarily = yes
+		}
+		ai_will_do = {
+			base = 100
+			modifier = {
+				add = 50
+				has_trait = ambitious
+			}
+		}
+	}
+
+	ai_ck3_stabilize_decision = {
+		picture = "gfx/interface/icons/decision_icons/decision_realm.dds"
+		desc = ai_ck3_stabilize_decision_desc
+		selection_tooltip = ai_ck3_stabilize_decision_tooltip
+
+		is_shown = {
+			is_ai = yes
+			ai_ck3_is_vulnerable = yes
+		}
+
+		is_valid = {
+			gold >= 50
+			any_vassal = {
+				opinion = { target = root value < 0 }
+			}
+		}
+
+		effect = {
+			ai_ck3_stabilize_realm_effect = yes
+		}
+
+		ai_check_interval = 36
+		ai_potential = {
+			ai_ck3_is_vulnerable = yes
+		}
+		ai_will_do = {
+			base = 80
+		}
+	}
+}

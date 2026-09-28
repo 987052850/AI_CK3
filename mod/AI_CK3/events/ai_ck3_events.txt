@@ -22,6 +22,11 @@ ai_ck3.001 = {
 	trigger = {
 		is_ai = yes
 		ai_ck3_should_seek_alliance = yes
+		any_neighboring_realm_leader = {
+			NOT = { is_allied_to = root }
+			NOT = { is_at_war_with = root }
+			opinion = { target = root value >= 20 }
+		}
 	}
 
 	immediate = {
