@@ -10,10 +10,10 @@ ai_ck3_reinforce_military_effect = {
 			type = heavy_infantry
 			men = 100
 		}
-	}
-	add_character_modifier = {
-		modifier = ai_ck3_military_readiness
-		years = 5
+		add_character_modifier = {
+			modifier = ai_ck3_military_readiness
+			years = 5
+		}
 	}
 }
 
@@ -25,14 +25,37 @@ ai_ck3_diplomatic_outreach_effect = {
 			NOT = { is_at_war_with = root }
 			opinion = { target = root value >= 20 }
 		}
-		root = {
-			send_diplomatic_notification = {
-				type = ai_ck3_alliance_offer
-				target = prev
+		add_opinion = {
+			target = root
+			modifier = ai_ck3_diplomatic_gesture
+			opinion = 15
+		}
+	}
+}
+
+# Effect: AI stabilizes internal affairs
+ai_ck3_stabilize_realm_effect = {
+	if = {
+		limit = {
+			gold >= 50
+			any_vassal = {
+				opinion = { target = root value < 0 }
+			}
+		}
+		add_gold = -50
+		every_vassal = {
+			limit = {
+				opinion = { target = root value < 0 }
+			}
+			add_opinion = {
+				target = root
+				modifier = ai_ck3_goodwill_gift
+				opinion = 10
 			}
 		}
 	}
 }
+
 
 # Effect: AI stabilizes internal affairs
 ai_ck3_stabilize_realm_effect = {

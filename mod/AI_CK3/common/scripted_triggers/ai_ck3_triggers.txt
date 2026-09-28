@@ -20,7 +20,6 @@ ai_ck3_should_expand_militarily = {
 # Check if an AI ruler should seek a new alliance
 ai_ck3_should_seek_alliance = {
 	is_ai = yes
-	NOT = { has_strong_hook = any }
 	any_neighboring_realm_leader = {
 		NOT = { is_allied_to = root }
 		NOT = { is_at_war_with = root }
@@ -34,7 +33,13 @@ ai_ck3_is_vulnerable = {
 	OR = {
 		is_at_war = yes
 		health < 3
-		num_of_vassals_with_high_opinion < 3
 		gold < 50
+		NOT = {
+			any_vassal = {
+				count >= 3
+				opinion = { target = root value >= 0 }
+			}
+		}
 	}
 }
+

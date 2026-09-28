@@ -3,10 +3,8 @@
 
 on_yearly_pulse = {
 	effect = {
-		every_ruler = {
-			limit = {
-				is_ai = yes
-			}
+		if = {
+			limit = { is_ai = yes }
 			# AI military expansion logic
 			if = {
 				limit = { ai_ck3_should_expand_militarily = yes }
@@ -21,6 +19,21 @@ on_yearly_pulse = {
 			else_if = {
 				limit = { ai_ck3_is_vulnerable = yes }
 				ai_ck3_stabilize_realm_effect = yes
+			}
+		}
+	}
+}
+
+on_new_character_created = {
+	effect = {
+		if = {
+			limit = {
+				is_ai = yes
+				is_ruler = yes
+			}
+			add_character_modifier = {
+				modifier = ai_ck3_ai_initialized
+				days = 1
 			}
 		}
 	}

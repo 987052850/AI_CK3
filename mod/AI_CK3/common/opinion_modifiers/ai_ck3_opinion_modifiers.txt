@@ -1,0 +1,11 @@
+# AI_CK3 Opinion Modifiers
+
+ai_ck3_goodwill_gift = {
+	opinion = 10
+	months = 60
+}
+
+ai_ck3_diplomatic_gesture = {
+	opinion = 15
+	months = 120
+}
